@@ -1,0 +1,21 @@
+safe: true
+markdown: kramdown
+highlighter: pygments
+permalink: /:title.html
+relative_permalinks: false
+
+default_theme: ig
+default_width: 792
+default_lang: en
+default_body_class: shower list
+
+author:
+    name: Varya Stepanova
+    url:  http://varya.me
+    company:
+        name: Intergalactico - Nordcloud Design Studio
+        url:  https://intergalactico.io/
+
+fork_url: https://github.com/varya/react-finland-2018
+progress: true
+line_numbers: true
