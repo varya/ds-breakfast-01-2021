@@ -150,11 +150,11 @@ what path to follow. Just copying approaches of some public design system might 
 ### in 2018
 
 * Great design community
-* Wolrd-class frontend teams
+* World-class frontend teams
 * UI kit in Sketch
 * Library of CSS components
-* Liraries of React components
-* Shared tools and practises
+* Libraries of React components
+* Shared tools and practices
 
 
 <!-- TODO: represent it as  nice images -->
