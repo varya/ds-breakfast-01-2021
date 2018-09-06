@@ -536,7 +536,7 @@ design.elisa.fi
   - Tutorials and shares
   - Blog
 * Channel in instant messenger
-* Onsight communication
+* Communication in person
 
 <!--
 How we make information available.
