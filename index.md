@@ -139,6 +139,15 @@ what path to follow. Just copying approaches of some public design system might 
 -->
 
 ## Elisa 2018 journey
+{: .no-title .elisa-2018 }
+
+### Design system at
+<object
+    class="ea-logo"
+    type="image/svg+xml"
+    title="Elisa"
+    data="http://static.elisa.fi/components/pattern-library/6.3.0/release/images/elisa-logo.svg#{$modifiers}"></object>
+### in 2018
 
 * Great design community
 * Wolrd-class frontend teams
@@ -146,6 +155,7 @@ what path to follow. Just copying approaches of some public design system might 
 * Library of CSS components
 * Liraries of React components
 * Shared tools and practises
+
 
 <!-- TODO: represent it as  nice images -->
 
@@ -163,6 +173,19 @@ can work together more smoothly and bring more value.
 How do we aproach it?
 
 -->
+
+<style>
+.elisa-2018 h3 {
+   display: inline-block;
+   color: #000;
+   margin-bottom: 1.5em;
+}
+.ea-logo {
+  width: 200px;
+  height: 80px;
+  margin: 0 15px -15px;
+}
+</style>
 
 
 ## What?
