@@ -23,11 +23,18 @@ style: |
     .slide .small {
       font-size: 50%;
     }
+    .slide--shout h3 {
+      color: #FFF;
+      font-size: 4em;
+      font-weight: bold;
+      margin-top: 0.5em;
+    }
 ---
 
 # Building design systems that leverage your designers, developers and products {#cover}
 
-Varya Stepanova
+Varya Stepanova<br/>
+<span class="job-title">Design Systems Specialist</span>
 {: .author }
 
 <!--
@@ -42,12 +49,27 @@ Varya Stepanova
   text-align: left;
 }
 
+#cover:before {
+  opacity: 0.5;
+}
+
+#cover h2 {
+  font-weight: bold;
+  text-transform: none;
+  line-height: 1.5em;
+}
+
 .author {
   font-size: 24px;
   margin-top: -5px;
   display: inline-block;
   position: absolute;
   right: 100px;
+  line-height: 1.5em;
+}
+.job-title {
+  opacity: 0.5;
+  top: 2em;
 }
 
 </style>
@@ -428,6 +450,13 @@ of components but they happen automatically whereas we are focused on keeping th
   background-repeat: no-repeat;
   background-image:url(pictures/contribution.jpg);
 }
+
+.new-process h2 {
+  width: 60%;
+  line-height: 1.5em;
+  background-color: rgba(255,255,255);
+  padding: 0 0.25em;
+}
 </style>
 
 ## Everyone to be involved
@@ -490,6 +519,13 @@ design.elisa.fi
 How we make information available.
 -->
 
+## be creative
+{: .slide--shout .slide--azure .no-title }
+
+<img src="themes/ig/images/icons/vial.svg" class="svg" style="width: 150px; height: 150px;"/>
+
+### be creative
+
 ## Pattern journey
 {: .no-title .pattern-journey }
 
@@ -499,6 +535,22 @@ How we make information available.
 
 .pattern-journey {
   padding: 35px;
+}
+
+</style>
+
+
+## be unique
+{: .slide--shout .slide--red .be-unique .no-title }
+
+<img src="themes/ig/images/icons/monkey--happy.svg" class="svg" style="width: 150px; height: 150px;"/>
+
+### be unique
+
+<style>
+
+.be-unique h3 {
+  margin-top: 0.4em;
 }
 
 </style>
