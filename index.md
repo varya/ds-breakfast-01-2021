@@ -543,7 +543,7 @@ How we make information available.
 -->
 
 ## be creative
-{: .slide--shout .slide--azure .no-title }
+{: .slide--shout .slide--blue .no-title }
 
 <img src="themes/ig/images/icons/vial.svg" class="svg" style="width: 150px; height: 150px;"/>
 
@@ -564,7 +564,7 @@ How we make information available.
 
 
 ## be unique
-{: .slide--shout .slide--red .be-unique .no-title }
+{: .slide--shout .slide--pink .be-unique .no-title }
 
 <img src="themes/ig/images/icons/monkey--happy.svg" class="svg" style="width: 150px; height: 150px;"/>
 
