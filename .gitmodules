@@ -7,6 +7,3 @@
 [submodule "shower"]
 	path = shower
 	url = https://github.com/shower/core.git
-[submodule "themes/ig"]
-	path = themes/ig
-	url = https://github.com/varya/shower-ig.git
