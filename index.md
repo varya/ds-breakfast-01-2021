@@ -17,6 +17,18 @@ style: |
       display: none;
     }
 
+    .shower.full .slide::before {
+      z-index: 1000;
+    }
+
+    .shower.full .slide.no-pulse::before {
+      display: none;
+    }
+
+    .slide h3 {
+      text-transform: none;
+    }
+
     .code--size--m {
       font-size: 0.8em;
     }
@@ -24,57 +36,36 @@ style: |
       font-size: 50%;
     }
     .slide--shout h3 {
-      color: #FFF;
+      color: currentColor;
       font-size: 4em;
       font-weight: bold;
       margin-top: 0.5em;
     }
 ---
 
-# Building design systems that leverage your designers, developers and products {#cover}
+# Building design systems that leverage your designers, developers, and products {#cover}
 
-Varya Stepanova<br/>
-<span class="job-title">Design Systems Specialist</span>
+Varya Stepanova, Design Systems Specialist<br/>
+[@varya_en](https://twitter.com/varya_en), [varya.me](http://varya.me/)
 {: .author }
-
-<!--
-
--->
 
 <style>
 
-@import url('https://fonts.googleapis.com/css?family=Nunito');
-
 #cover {
   text-align: left;
-}
-
-#cover:before {
-  opacity: 0.5;
+  background-size: 300px 105px;
+  background-position: 30px 25%;
 }
 
 #cover h2 {
-  font-weight: bold;
-  text-transform: none;
+  margin-top: calc(10% + 2em);
   line-height: 1.5em;
 }
 
 .author {
-  font-size: 24px;
-  margin-top: -5px;
-  display: inline-block;
-  position: absolute;
-  right: 100px;
-  line-height: 1.5em;
-}
-.job-title {
-  opacity: 0.5;
-  top: 2em;
 }
 
 </style>
-
-<!-- Picture credits: http://www.createmydreamlifestyle.com/index.php/2016/07/30/advantages-of-the-laptop-lifestyle/ -->
 
 
 ## Me
@@ -83,7 +74,7 @@ Varya Stepanova<br/>
 ![](pictures/me.jpg){: .photo }
 
 ### Now
-Design Systems Specialist<br/> at Intergalactico <sub class="small">Nordcloud Design Studio</sub>
+Design Systems Specialist<br/> at Intergalactico <sub class="small">Nordcloud Design Studio</sub> in Helsinki.
 
 ### Before
 TMG (Amsterdam, the Netherlands); Yandex&nbsp;(Moscow,&nbsp;Russia)
@@ -117,6 +108,13 @@ design system which takes into account your company situation, suits specific pr
 }
 </style>
 
+## What are design systems?
+{: .slide--shout .slide--blue .no-title }
+
+<img src="themes/ig/images/icons/monkey--meh.svg" class="svg" style="width: 150px; height: 150px;"/>
+
+### What are design systems?
+
 
 ## Various design systems
 {: .no-title }
@@ -138,6 +136,28 @@ what path to follow. Just copying approaches of some public design system might 
 
 -->
 
+## Elisa
+{: .no-title .elisa }
+
+<object
+    class="ea-logo--large"
+    type="image/svg+xml"
+    title="Elisa"
+    data="http://static.elisa.fi/components/pattern-library/6.3.0/release/images/elisa-logo.svg"></object>
+
+### [corporate.elisa.fi](https://corporate.elisa.com/?_ga=2.86825873.809942848.1539693337-1214540075.1534242252){: .color--pink }
+
+<style>
+.elisa {
+  text-align: center;
+}
+.ea-logo--large {
+  width: calc(200px*3);
+  height: calc(80px*3);
+  margin: 2em auto;
+}
+</style>
+
 ## Elisa 2018 journey
 {: .no-title .elisa-2018 }
 
@@ -151,7 +171,7 @@ what path to follow. Just copying approaches of some public design system might 
 
 * Great design community
 * World-class frontend teams
-* UI kit in Sketch
+* UI kit
 * Library of CSS components
 * Libraries of React components
 * Shared tools and practices
@@ -189,7 +209,7 @@ How do we aproach it?
 
 
 ## What?
-{: .what .no-title }
+{: .no-title .what .no-pulse }
 
 <h3 class="wtitle">
   <span class="wtitle--how">How?</span>
@@ -222,6 +242,7 @@ So, let's see WHAT we can do for this purpose.
 
 <style>
 .what {
+  background-color: #9C7063;
   background-size: cover;
   background-position: 50% 50%;
   background-repeat: no-repeat;
@@ -252,6 +273,9 @@ So, let's see WHAT we can do for this purpose.
 
 ## Design thinking
 
+### & User-Centred Methods
+{: .subtitle }
+
 ![](pictures/design-thinking.jpg){: .cover }
 
 <!--
@@ -264,12 +288,21 @@ methods.
 -->
 
 ## Research
+{: .slide--shout .slide--yellow .no-title }
 
-* Customer research
+<img src="themes/ig/images/icons/pile.svg" class="svg" style="width: 150px; height: 150px;"/>
+
+### Research
+
+## Getting data
+
+* Automatic collection of quantitative data
+* User research
+  - questionnaires
   - *interviews* with teams
   - documenting feedback
 * Industry research
-  - having time for studies
+  - learning from you
 
 <!--
 
@@ -366,6 +399,13 @@ workshops.
 
 </style>
 
+## Participatory methods
+{: .slide--shout .slide--violet .no-title }
+
+<img src="themes/ig/images/icons/star.svg" class="svg" style="width: 150px; height: 150px;"/>
+
+### Participatory methods
+
 ## Workshops
 {: .workshops .no-title }
 
@@ -456,6 +496,13 @@ This made us focus on information availability for the design system.
 
 </style>
 
+## Outcomes
+{: .slide--shout .slide--blue .no-title }
+
+<img src="themes/ig/images/icons/mark.svg" class="svg" style="width: 150px; height: 150px;"/>
+
+### Outcomes
+
 ## Design system is a process
 {: .new-process }
 
@@ -482,6 +529,11 @@ of components but they happen automatically whereas we are focused on keeping th
 }
 </style>
 
+## Our goals
+
+- Ensuring proper usage
+- Increasing contributions
+
 ## Everyone to be involved
 {: .involved }
 
@@ -501,12 +553,87 @@ possible to participate just a bit. Or to contribute very little, as much as a p
 
 <style>
 .involved {
-  background-size: cover;
-  background-position: 50% 50%;
+  background-color: #427C53;
+  background-size: calc(1920px / 1.7) calc(1232px / 1.7);
+  background-position: 50% calc(50% + 50px);
   background-repeat: no-repeat;
   background-image:url(pictures/collaboration-lamp.jpg);
 }
+.involved h2 {
+  color: #FBC534;
+}
 </style>
+
+## Information availability
+{: .slide--shout .slide--yellow .no-title }
+
+<img src="themes/ig/images/icons/lamp.svg" class="svg" style="width: 150px; height: 150px;"/>
+
+### Information availability
+
+<!--
+
+That said, we made a decision to really focus on information availability for our design system.
+Of course, our system was already well documented and we did have processes of communication with our users and
+contributors. But anyways, previously, this was our second taks while the main focus was the production itself.
+Today, we are approaching differently and make information our main focus. We specificaly ideate on what we have to
+deliver as information and which way we present it.
+
+-->
+
+
+## Domain
+
+- <b>What we have done?</b><br/>
+  Release notes, human-friendly explanations
+- <b>What we are doing?</b><br/>
+  Github reports, JIRA status, sharing on meetings
+- <b>What we are going to do?</b><br/>
+  Announces, asking to advice
+- <mark>How</mark> we are doing all of that?
+
+<!--
+
+Speaking about what exactly we communicate to our colleagues, I categorized it like the following.
+
+First of all, we speak about what we have done, present the design systems and a product for the following usage. We
+indeed used to do this previously and so we continue. We have both automated and manual processes. For example, the
+release notes are generated from the pull requests we merged for the new version. But this is often too generic and
+booring for people. So, we like to highlight the key parts with separate human-readable stories and explanations on the
+new release features.
+
+As we want the contributors to be the most included into the process, we also share about what we are doing now. For
+that, we again gather information from GitHub. This time, also about the pull requests, which are just merged or yet
+open. We say who has made them, what is the content and what are the status of the reviews.
+We make similar extracts from JIRA since besides the code changes, JIRA reflects all our activities, including workshops
+made, meetings run, concepts developed.
+And finally we communicate to the people in person, either at the regular meetings or privately.
+
+We would like to get the feedback of our users and suggestions from our contributors as early as possible. This is why
+we share even before the work has started. If the is an idea of new pattern or feature in our design system, we discuss
+it before implementing.
+
+-->
+
+## Ways of communication
+
+- At regular meetings
+- With product teams by request
+- Channel in instant messenger
+- Intra website<br/>
+  *Documenttaion, tutorials, blog, experiments.*
+
+<!--
+
+We use different channels for communication. At Elisa, there are are regular meetings with free agenda like Design
+bi-weekly or Frontend bi-weekly. Also, the company organizes workshops and internal meetups. We at the design system
+team make sure that our presence at such meetings is contant and also that we often speak there.
+
+We also communicate with product teams by their request. A team can ask for workshop, consultation, pair programming
+session or code examination.
+
+-->
+
 
 
 ## Single point of truth
@@ -528,40 +655,22 @@ design.elisa.fi
 </style>
 
 
-## Give and get
-
-* Constantly growing site
-  - Documentation
-  - Announces
-  - Tutorials and shares
-  - Blog
-* Channel in instant messenger
-* Communication in person
-
-<!--
-How we make information available.
--->
-
 ## be creative
-{: .slide--shout .slide--blue .no-title }
+{: .slide--shout .slide--violet .no-title }
 
 <img src="themes/ig/images/icons/vial.svg" class="svg" style="width: 150px; height: 150px;"/>
 
 ### be creative
 
-## Pattern journey
-{: .no-title .pattern-journey }
+## Decision tree
 
-<iframe width="100%" height="100%" src="http://varya.me/design-systems/pattern-journey/#pattern-journey---interactive-scheme" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+TODO: Insert pictures
 
-<style>
+## Screencasts
 
-.pattern-journey {
-  padding: 35px;
-}
+## Cartoons
 
-</style>
-
+TODO: JIRA movie
 
 ## be unique
 {: .slide--shout .slide--pink .be-unique .no-title }
@@ -587,7 +696,7 @@ Varya Stepanova, Intergalactico - Nordcloud Design Studio<br/>
 
 ### Slides
 
-### [varya.me/ds-in-wild-tallinn](http://varya.me/ds-in-wild-tallinn/)
+### [varya.me/design-systems-thinking](http://varya.me/design-systems-thinking/)
 
 <!--
 Thank you very much! You can always reach me out in twitter, or in the afterparty.
