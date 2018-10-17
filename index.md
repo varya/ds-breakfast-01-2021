@@ -333,7 +333,7 @@ time for such studies and often have a preliminary goal, what are the answers we
 * What we are doing now
 * What people expect us to do
 * Our dream activities<br/>
-  *How would we respond the requests if we COULD.*
+  *How would we respond to the requests if we <b>could</b>.*
 * What we can offer now
 
 ![](pictures/field-trip__pattern-library-50.png){: .pl }
@@ -594,8 +594,8 @@ deliver as information and which way we present it.
 - <b>What we are doing?</b><br/>
   Github reports, JIRA status, sharing on meetings
 - <b>What we are going to do?</b><br/>
-  Announces, asking to advice
-- <mark>How we are doing all of that?</mark>{: .next }
+  Announces, asking for advice
+- <b><mark>How we are doing all of that?</mark></b>{: .next }
 
 <!--
 
@@ -620,13 +620,13 @@ it before implementing.
 
 -->
 
-## Ways of communication
+## Reach people
 
 - At regular meetings
 - With product teams by request
 - Channel in instant messenger
 - Intra website<br/>
-  *Documenttaion, tutorials, blog, experiments.*
+  *Documentaion, tutorials, blog, experiments.*
 
 <!--
 
@@ -683,15 +683,16 @@ Source: [Brad Frost, "Maintaining Design Systems", Chapter 5](http://atomicdesig
 }
 </style>
 
-## Interactive desicion tree
+## Interactive decision tree
 
 <iframe width="738" height="415" src="https://www.youtube.com/embed/kKnTN3EswnU" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 ## Not just long texts
 
 * <b>Screencasts</b><br/>
-  * How to add new icon?
+  * How to add a new icon?
   * How to release?
+  * How how how?
 * <b>Dynamic content</b><br/>
   Extracts from GitHub and JIRA
 * <b>Interactive interface solutions</b><br/>
@@ -699,8 +700,9 @@ Source: [Brad Frost, "Maintaining Design Systems", Chapter 5](http://atomicdesig
 
 ## Tailor the processes
 
-The process <mark>has to cover all</mark> we do. But it <mark>has&nbsp;to be simple</mark> for others to grasp. We need to
-represent it with an issue tracker.
+The process <mark>has to cover all</mark> we do.<br/>
+But it <mark>has&nbsp;to be simple</mark> for others to grasp.<br/>
+We need to make it <mark>visible</mark>.
 {: .x2 }
 
 ## Inventing the flow
@@ -708,10 +710,10 @@ represent it with an issue tracker.
 
 ![](pictures/jira-workshop--small.jpg){: .pic }
 
-* Flow for all the activities:<br/>
-  *visual language updates, patterns production, automations, documentation, championship...*
-* Easy to focus on something specific
-* Keep the information for further usage
+* <b>Flow for all the activities</b><br/>
+  visual language updates, patterns production, automation, documentation, championship...
+* <b>Easy to focus on something specific</b>
+* <b>Keep the information for further usage</b>
 
 <style>
 
