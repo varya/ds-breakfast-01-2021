@@ -306,13 +306,13 @@ methods.
 
 ## Getting data
 
+* Industry research
+  - learning from you
 * Automatic collection of quantitative data
 * User research
   - questionnaires
   - *interviews* with teams
   - documenting feedback
-* Industry research
-  - learning from you
 
 <!--
 
