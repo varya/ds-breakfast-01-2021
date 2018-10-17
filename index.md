@@ -53,6 +53,12 @@ Varya Stepanova, Design Systems Specialist<br/>
 [@varya_en](https://twitter.com/varya_en), [varya.me](http://varya.me/)
 {: .author }
 
+<!--
+
+Hello. My name is Varya, I am a design systems specialist.
+
+-->
+
 <style>
 
 #cover {
