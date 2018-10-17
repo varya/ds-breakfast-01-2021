@@ -84,7 +84,7 @@ Hello. My name is Varya, I am a design systems specialist.
 ![](pictures/me.jpg){: .photo }
 
 ### Now
-Design Systems Specialist<br/> at Intergalactico <sub class="small">Nordcloud Design Studio</sub> in Helsinki.
+Design Systems Specialist<br/> at Intergalactico — Nordcloud Design Studio<br/>in Helsinki.
 
 ### Before
 TMG (Amsterdam, the Netherlands); Yandex&nbsp;(Moscow,&nbsp;Russia)
@@ -112,7 +112,7 @@ design system which takes into account your company situation, suits specific pr
   float: left;
   width: 300px;
   margin-top: 1em;
-  margin-bottom: 6em;
+  margin-bottom: 7em;
   margin-right: 1em;
   border-radius: 50%;
 }
@@ -180,7 +180,7 @@ what path to follow. Just copying approaches of some public design system might 
 ### in 2018
 
 * Great design community
-* World-class frontend teams
+* World-class front-end teams
 * UI kit
 * Library of CSS components
 * Libraries of React components
@@ -283,7 +283,7 @@ So, let's see WHAT we can do for this purpose.
 
 ## Design thinking
 
-### & User-Centred Methods
+### & User Centered Methods
 {: .subtitle }
 
 ![](pictures/design-thinking.jpg){: .cover }
