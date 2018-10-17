@@ -41,6 +41,10 @@ style: |
       font-weight: bold;
       margin-top: 0.5em;
     }
+
+    .x2 {
+      font-size: 1.5em;
+    }
 ---
 
 # Building design systems that leverage your designers, developers, and products {#cover}
@@ -532,7 +536,8 @@ of components but they happen automatically whereas we are focused on keeping th
 ## Our goals
 
 - Ensuring proper usage
-- Increasing contributions
+- <mark>Increasing contributions</mark>
+{: .x2 }
 
 ## Everyone to be involved
 {: .involved }
@@ -590,7 +595,7 @@ deliver as information and which way we present it.
   Github reports, JIRA status, sharing on meetings
 - <b>What we are going to do?</b><br/>
   Announces, asking to advice
-- <mark>How</mark> we are doing all of that?
+- <mark>How we are doing all of that?</mark>{: .next }
 
 <!--
 
@@ -639,6 +644,8 @@ session or code examination.
 ## Single point of truth
 {: .website .no-title }
 
+![](pictures/website.jpg){: .pic }
+
 <!--
 
 design.elisa.fi
@@ -647,10 +654,10 @@ design.elisa.fi
 
 <style>
 .website {
-  background-size: contain;
-  background-position: 50% 50%;
-  background-repeat: no-repeat;
-  background-image:url(pictures/website.png);
+  overflow-y: scroll;
+}
+.website .pic {
+  width: 100%;
 }
 </style>
 
@@ -662,15 +669,59 @@ design.elisa.fi
 
 ### be creative
 
-## Decision tree
+## What do I do when.. ?
+{: .what-do-i-do }
 
-TODO: Insert pictures
+![](pictures/pattern-addition-flowchart.png){: .pic }
 
-## Screencasts
+Source: [Brad Frost, "Maintaining Design Systems", Chapter 5](http://atomicdesign.bradfrost.com/chapter-5/)
+{: .note }
 
-## Cartoons
+<style>
+.what-do-i-do .pic {
+  width: 100%;
+}
+</style>
 
-TODO: JIRA movie
+## Interactive desicion tree
+
+<iframe width="738" height="415" src="https://www.youtube.com/embed/kKnTN3EswnU" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+## Not just long texts
+
+* <b>Screencasts</b><br/>
+  * How to add new icon?
+  * How to release?
+* <b>Dynamic content</b><br/>
+  Extracts from GitHub and JIRA
+* <b>Interactive interface solutions</b><br/>
+  React components embedded into the website.
+
+## Tailor the processes
+
+The process <mark>has to cover all</mark> we do. But it <mark>has&nbsp;to be simple</mark> for others to grasp. We need to
+represent it with an issue tracker.
+{: .x2 }
+
+## Inventing the flow
+{: .inventing-flow }
+
+![](pictures/jira-workshop--small.jpg){: .pic }
+
+* Flow for all the activities:<br/>
+  *visual language updates, patterns production, automations, documentation, championship...*
+* Easy to focus on something specific
+* Keep the information for further usage
+
+<style>
+
+.inventing-flow .pic {
+  float: right;
+  width: 300px;
+}
+
+</style>
+
 
 ## be unique
 {: .slide--shout .slide--pink .be-unique .no-title }
