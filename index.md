@@ -600,7 +600,7 @@ deliver as information and which way we present it.
 - <b>What we are doing?</b><br/>
   Github reports, JIRA status, sharing on meetings
 - <b>What we are going to do?</b><br/>
-  Announces, asking for advice
+  Announcements, asking for advice
 - <b><mark>How we are doing all of that?</mark></b>{: .next }
 
 <!--
@@ -624,6 +624,13 @@ We would like to get the feedback of our users and suggestions from our contribu
 we share even before the work has started. If the is an idea of new pattern or feature in our design system, we discuss
 it before implementing.
 
+And the most important part, now we do tell a lot about how we are doing things. We want everyone to be involved and we
+see it that anyone can do our job if properly guided. There should not be any "firm secret" in our actuvity. So, we
+share about technical approaches we are using, the processes we are going through, about the architectural details of
+our solutions. Mostly, we are trying to express it in sharp and precise tutorials and explanations. Something which is
+obvious for us doing this job day to day may not be so clear for the others whose focus is different. We are trying to
+remember it.
+
 -->
 
 ## Reach people
@@ -632,7 +639,7 @@ it before implementing.
 - With product teams by request
 - Channel in instant messenger
 - Intra website<br/>
-  *Documentaion, tutorials, blog, experiments.*
+  *Documentation, tutorials, blog, experiments.*
 
 <!--
 
@@ -642,6 +649,20 @@ team make sure that our presence at such meetings is contant and also that we of
 
 We also communicate with product teams by their request. A team can ask for workshop, consultation, pair programming
 session or code examination.
+
+We have a dedicated channel in instant messenger, for the Elisa's case it's mattermost but in general it can also be
+Slack, Flowdock or any other. The main point is that people can always reach the design system team there. We are even
+trying to do out internal communication via this channel but not to much. We want to show the people current status but
+we do not want to spam them.
+
+Besides, we are making steps to involve all the others into open conversation. If there is something for discussion, we
+mention relevant people right away so that they could share their opition. So far, we already managed to make the
+channel a place where designers and developers communicate. And as I see, bridging the designer-developer gap is one the
+missions of design systems in general.
+
+Then, going further, we started to think: okey, design systems are so valuable because it is single sorce of truth for
+the brand, for UI elements, sometimes even for implementation. But what if our design system itself needs something
+which is a single source of truth for it? That said, we invested into developing an internal website.
 
 -->
 
@@ -654,7 +675,22 @@ session or code examination.
 
 <!--
 
-design.elisa.fi
+A bit more about it. The website is internal, so there is only screenshot here.
+
+Previously, we did have some websites which documented the design system products. CSS library is presented at a style
+guide website which is even available pubically. React library has an internally hosted Storybook website. But that's
+for products. Design systems are more than just libraries. They are also set of practises, processes we follow, all the
+  tools we share. events we run. All these things have to be accessibsle.
+
+Even if eveyrthing is open, in a sense that process is visible in issue tracker, code is open in the repository and so
+one, people still have to know where to search this things for. It is much more convinient if you know one URL, and then
+it links you to eveyrthing.
+
+We made the website internal because it let us freedom not to think about NDA and be the most open. The structure you
+are seeing now is very much initial. At the moment, we are right in the process of tailoring what and how to show there.
+But there is already information for the newcomers, direct links to the products of design system, links to GitHub and
+JIRA, various tutorials and the blog. In the blog, we write about what we have done and what we are going to do. And we
+also encourage our users and contributors to be the authors.
 
 -->
 
@@ -675,6 +711,14 @@ design.elisa.fi
 
 ### be creative
 
+<!--
+
+When we are working on this website, we are trying to be creative. It is not just for writing long texts for
+documentation. We have them already and no one reads them anyway :-) It is also very important how you repredent the
+information. It has to be interesting for people and still useful. We are trying to experiment in this area.
+
+-->
+
 ## What do I do when.. ?
 {: .what-do-i-do }
 
@@ -682,6 +726,20 @@ design.elisa.fi
 
 Source: [Brad Frost, "Maintaining Design Systems", Chapter 5](http://atomicdesign.bradfrost.com/chapter-5/)
 {: .note }
+
+<!--
+
+Remember this picture? Brad Frost visualised what happens to a pattern, what is its journey. You can have a closer look
+if you check out his "Maintaining Design Systems".
+As a design system team, we guided our patterns in these journeys all the time. It was not documented because after you
+have spend couple of years with it, it becomes common sense for you. But is it common sense for the users of design
+system? Especially new comers. And is it so obvious for the potential contributors?
+Here I would like again to reffer to the workshop we run separetely for the design system team and for the team of
+users. It showed very clearly that two groups see the process of creating a pattern very differently. Having understood
+that, and wanting also to catch the attention for the people, we extended this idea of decision tree into interactive
+component.
+
+-->
 
 <style>
 .what-do-i-do .pic {
@@ -692,6 +750,24 @@ Source: [Brad Frost, "Maintaining Design Systems", Chapter 5](http://atomicdesig
 ## Interactive decision tree
 
 <iframe width="738" height="415" src="https://www.youtube.com/embed/kKnTN3EswnU" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+<!--
+
+Our design system website is built the way that we can put any React component there. So we do not limit ourselves :-)
+We developed the concept of "pattern journey" to visualise what people should do when they found themselves in a need of
+a new pattern. Do they take it from the library? Do they implement it themselves and put into the library? Do they just
+implement it and keep at their project?
+
+This decision tree guides our colleagues. They have simple question to be answeed "yes" and "no". Each node here can
+open a popup with explanations how to find and answer to this question. In this version you see just a plain text but in
+reality it also has links to here and there. Like, "check in this repository", or "find in JIRA with the help of this
+filter".
+
+Also remeber, this all was about design thinking which suggests us to prototype and try. So, we made such a tree for
+only one of our products - the CSS library. We are planning to learn if it helps and then extend it to the other
+products or change. it.
+
+-->
 
 ## Not just long texts
 
@@ -704,6 +780,20 @@ Source: [Brad Frost, "Maintaining Design Systems", Chapter 5](http://atomicdesig
 * <b>Interactive interface solutions</b><br/>
   React components embedded into the website.
 
+<!--
+
+Similarly, we are trying differnt types of content for representing many other information. When doing the routine, we
+make screencasts. It is often much faster than writing a proper blog post or documentation. And this way we would like
+to make eveyone be able to add a new icon or even to release the library.
+
+As I said, we can make React component at our website, and it is internal so no security issues. So we can use GitHub or
+JIRA APIs to get information from there and represent it in nicer ways right on the website pages. This very much
+increases the visibility of the whole thing.
+
+At some point we even made and SVG cartoon run as another React component. This really atracts our colleagues.
+
+-->
+
 ## Tailor the processes
 
 The process <mark>has to cover all</mark> we do.<br/>
@@ -711,15 +801,54 @@ But it <mark>has&nbsp;to be simple</mark> for others to grasp.<br/>
 We need to make it <mark>visible</mark>.
 {: .x2 }
 
+<!--
+
+Besides the website which in fact documents the reality, we are also trying to change this reality. Based of the
+knowledge we gained from our research, we are also trying to tailor our processes.
+
+That information gap between the design system team and the users was not only because we did not communicate our point
+of view. But also because we were doing something not in the best way. Some of their ideas were better and we got them
+into use. However, changing a bit and again aligning with our major goal to facilitate the process and get everyone
+involved.
+
+So we wanted to change our process to that it covers all our activities, but at the same time it is quite simple for all
+the others to understand and even find themselves in that process. And we wanted to make it somehow visible and
+available. Previously, we tried Trello and issues on GitHub, but it did not play well.
+
+-->
+
 ## Inventing the flow
 {: .inventing-flow }
 
 ![](pictures/jira-workshop--small.jpg){: .pic }
 
 * <b>Flow for all the activities</b><br/>
-  visual language updates, patterns production, automation, documentation, championship...
+  visual language updates, patterns production, automation, documentation, championing...
 * <b>Easy to focus on something specific</b>
 * <b>Keep the information for further usage</b>
+
+<!--
+
+So, we went through a real ideation session. Yeah, now we like workshops and sticket notes even for internal things.
+Because it really works, we made so much with it.
+
+We categorized all the types of activities we are doing like working with visual language, component production, making
+documentation, helping the teams. All to see some common ground and bigger picture of bigger process.
+
+We realized that what we are doing does not fit into regular workflow when a task is first in ToDo, then in Progress,
+then Done. Yes, it is the flow to smaller chunks but all together our activities are living different cycle. So, we
+invented 2-dimension matrix to see it from both perspectives.
+
+We were looking
+for representation of it which would show the whole picture at once. And at the same time would be very useful if
+  someone wants to focus only on a specific area like one of the epics or area of some person and so on.
+
+And we also took into account that we would like to use our task tracker as a data base. We are providing attributes
+which later help us to focus on a specific pattern or specific project and so on. This databased already paid back when
+we were calculating upcoming progress and team expenses from the financial perspective. The business people were very
+pleased with the approach.
+
+-->
 
 <style>
 
@@ -737,6 +866,14 @@ We need to make it <mark>visible</mark>.
 <img src="themes/ig/images/icons/monkey--happy.svg" class="svg" style="width: 150px; height: 150px;"/>
 
 ### be unique
+
+<!--
+
+So, I showed you just some examples of what can be done. The story never ends and it most likely it will be different
+for you when you apply the approach to your design system which is made for your company, for your products and for the
+  people you are working to. Make your own unique design system which would be very best for you.
+
+-->
 
 <style>
 
