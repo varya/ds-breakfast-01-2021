@@ -12,10 +12,7 @@ default_body_class: shower list
 author:
     name: Varya Stepanova
     url:  http://varya.me
-    company:
-        name: Intergalactico - Nordcloud Design Studio
-        url:  https://intergalactico.io/
 
-fork_url: https://github.com/varya/design-systems-thinking
+fork_url: https://github.com/varya/react-finland-2019
 progress: true
 line_numbers: true

@@ -47,7 +47,7 @@ style: |
     }
 ---
 
-# Building design systems that leverage your designers, developers, and products {#cover}
+# Using React and JavaScript for design systems {#cover}
 
 Varya Stepanova, Design Systems Specialist<br/>
 [@varya_en](https://twitter.com/varya_en), [varya.me](http://varya.me/)
