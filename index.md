@@ -30,6 +30,11 @@ style: |
         width:0.72em;
         height:0.72em;
         }
+
+
+    .no-title h2 {
+      display: none;
+    }
 ---
 
 # JavaScript to help your design system {#Cover}
@@ -39,66 +44,160 @@ style: |
 ![](pictures/cover.jpg){: .cover}
 <!-- TODO: Change picture -->
 
+<!--
+
+Hello. Let's thank Andrey for a very comprehensive introduction to the design systems and explaning their value. My name
+is Varya Stepanova and I am going to continue with the same topic. Since we are here at the React conference, I would
+like to cover how we could apply React or even more generally speaking JavaScript to building design systems, providing
+tooling for them, creating supplementary tools and measuring their success.
+
+-->
+
 ## Design Systems [in React world]
+
+- shared practises
+- tools
+- processes
+- community
 
 <!--
 
 In the context of React as technology, ecosystem and community, design systems are often mentioned as high-level
-component libraries. This is indeed a huge aspect of them but a solid design system is never only a library. Also, it
-does not have to be React library, sometimes HTML/CSS snippets are enough.
+component libraries. This is indeed a huge aspect of them but a solid design system is never only a library.
 
-What is a design system?
+Of course, many companies start from library and later have a very strong technical aspect of that. But sooner or later
+we find out that design system is much more.
 
-- shared practises
-- processes
-- tools
-- community
+As it is yet evolving concept, our understanding of it is changing, so there is no definition. But speaking from
+experience, I would say that a design system is
 
--->
+- shared practises<br/>
+  Shared practises, based on which you design your product or bunch of products under the same brand. Components go
+  here, but this is not only about them. The practises can be more anstract or more design related such as visual
+  language or tone of voice. Or on the contrary, they can be deeply technical and reflect your approach to code.
+- tools<br/>
+  This brings us to tools which our company could have for all the developers and designers to share. As we are speaking
+  about design systems as a way of standartizing, they fit there.
+- processes<br/>
+  At some level, design systems would mean the processes which are followed in the company to achieve the outlined
+  goals.
+- community<br/>
+  Ans finally, working with our fellow developers, designers and project owners as with a community also resonates with
+  design system goals.
 
-## Technologies to help
+Even though the components were only mentioned in the beginning, we can apply technologies to all of these aspects of
+design systems.
+In the following talk I will show examples of applying React, Gatsby and some other JavaScript buzzwords to a
+design system. And it shuold help even non-React projects.
 
-<!--
-Usage of modern technologies gives a lot of benefits. At the same time, in real projects there can be different reasons
-for legacy. For example, some companies stay with pure CSS/HTML libraries. How can they take advantage of the fancy
-  approaches from the conferences?
+I would like to underline this. Even if there is nothing of React in some design system, it still can help.
+For example, some companies stay with pure CSS/HTML libraries. But they also take advantage of the fancy
+approaches from the conferences. And I am going to show this by examples.
 
-In the following talk I will show examples of applying React, Gatsby and some other JavaScript buzzwords to a non-React
-design system. 
 -->
 
 
 ## Design system in Elisa
+{: .no-title .elisa }
+
+### Design system at
+<object
+    class="ea-logo"
+    type="image/svg+xml"
+    title="Elisa"
+    data="http://static.elisa.fi/components/pattern-library/6.3.0/release/images/elisa-logo.svg#{$modifiers}"></object>
+
+* Great design community
+* World-class front-end teams
+* UI kit
+* Library of CSS components
+* Libraries of React components
+* Shared tools and practices
 
 <!--
+
 The examples I will be giving are based on experience of working with design system at Elisa.
-TODO: describe.
+
+For those who are not from Finland or Estonia, Elisa is our local telecommunication operator and content provider with a
+long history and dozens of digital products which are offered under the same brand.
+
+It's a huge product which includes several UI libraries. Some libraries are in React but there is also a plain HTML/CSS
+library which still needs a lot of automations and technological support.
+
+Besides, there is a large UI kit in Sketch.
+
+Apart from technical perspecitive,
+design system at Elisa means communication practises, visual guidelines, shared processes and tools.
+
+So, during the last year, I had a lot of opportunities to apply different technologies for supporting this ecosystems,
+making processes smooth and more transparent.
+
 -->
+<style>
+.elisa h3 {
+   display: inline-block;
+   color: #000;
+   margin-bottom: 1.5em;
+}
+.ea-logo {
+  width: 200px;
+  height: 80px;
+  margin: 0 15px -15px;
+}
+</style>
 
 
 ## React living styleguides
 
+Logo for Styleguidist and Storybook
+
+Scheme of generating docs
+
 <!--
-You don't have to change the way how you write your docs. For example, your docs are as comments in code. Styleguidist
-or Storybook cannot read them. But you can write a script to generate suitable styleguide docs automatically.
 
-Don't forget to Reactify your code.
+I think all of you are familiar with Styleguidist and Storybook. Or maybe some have experience with other similar
+solutions. They provide nice isolation, help with styleguide-driven development and offer supplementary plugins for
+different purposes. Such solutions are huge help when developing a React project or / in design systems context / a
+library of React components.
 
-Consider this automation as a small step towards new technologies. One day they will come to your project as well. By
-that time you already have some set up for the tools.
+But it is possible to use these tools also for plain HTML/CSS libraries as well.
+
+What we need to enjoy Styleguidist or Storybook? We should have our code snippets in a special format. It is in markdown
+for Styleguidist and in JavaScript for Storybook.
+With our plain HTML/CSS library we usually also have similar documentation for components but maybe in different
+formats. At Elisa, we had these snippets as comments in CSS code and there was a custom tool to parse those comments.
+
+Then, if we want this documentation in React-friendly format, we can just translate it with some script. So, these
+markdown files for Styleguidist or stories for Storybook can be generated automatically. And after that, we simply run
+the tool over the gotten source.
+
+This way, you don't have to change the way how you write your docs and you don't break the familiar process for your
+people. But you already have Styleguidist in use.
+
+Then, Styleguidist can be used as a playgorund for development or it can be customized as a documentation website.
+
+Also, consider this automation as a small step towards new technologies. One day they will come to your project as well.
+By that time you already have some set up for the tools.
 -->
 
 
 ## Visual regression tests
+
+Illustration of visual regression tests
+
+Example of a command to run
 
 <!--
 
 Using standard and community-supported living style guide you can enjoy supplementary tools. For example, you can have
 visual regression tests for your components quite nicely and without much pain.
 
-I have a lot of experience with custom set ups. It takes time to maintain. It's always better to re-use the community
-work. Styleguide tools often provide plugins for visual regression tests. They are easy to install. If there is bug, it
-will be fixed faster than in your own project.
+I have a lot of experience with custom set ups. They served the purpose but took much more time to maintain. So, I think
+it is always better to re-use the community work and adopt the common solution.
+
+Both Styleguidist and Storybook have additional tools for visual regression tests, sometimes more than one. I did not
+check recently if somthing new appeared but usually there is a variety to choose from. In general, it is usually a
+package to unstall and then run a command. That simple.
 
 Combining this idea with generating stories, you can take advantage of the plugins even for non-React projects. This is
 not only about visual tests. If we generalize the idea, we can think about using React ecosystem for non-React projects.
@@ -110,6 +209,25 @@ not only about visual tests. If we generalize the idea, we can think about using
 ### Gatsby
 
 <!--
+
+Now, let's come back to the idea that a design system is not only the library of components. Having a generated
+styleguide is nice but most likely we will need something more.
+
+As a developer using a design system, I would like to have access to release notes, maybe some general documentation
+about the system, not only about components separately.
+As a designer, I also want to be involved, and have not so much tenhnical but design-focused information.
+As a project manager or owner, I need shrinked prepresentation but more information about the upcoming content in the
+design system, their roadmap and such plans.
+And all together we would like to have soemthing which helps us as multidisciplinary team.
+If there are several teams as usually happens in large orhanizations, we need an environment to collaborate more
+effectively.
+And as a business person, I would like to have a larger scale picture, maybe even with numbers of how much we earn or
+save.
+
+
+******
+
+
 Design system needs a website as "single point of truth". Styleguide is not such a website but just a part of it. Design
 system is not only a library, also a visual language. On the most high level, it is processes and community work.
 Everything has to be documented. So, make a website.
