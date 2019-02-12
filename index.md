@@ -1,6 +1,6 @@
 ---
 
-layout: ig
+layout: bright
 
 style: |
 
