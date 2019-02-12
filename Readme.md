@@ -1,6 +1,6 @@
 # Info
 
-## List if ideas
+## List of ideas
 
 1. Using Styleguidist and Storybook for non React projects (generate stories)
 1. Visual tests based on styleguides (incl automated visual tests)
@@ -11,10 +11,10 @@
 1. Gather all the contributor names from GitHub
 1. Use different sources (e.g. Wordpress) to make blogging culture
 1. Extract md of dependent packages and turn into Gatsby pages
-1. Build charts based on gathered knowledge
-1. Crawling the repositories to calculate the usage of components.
 1. Interactive changelog? Based on static data from GitHub. Idea - improve GitHub flow.
-1. Design systems are verry new concept, so sharp it to your own project. Use design thinking and user centred design
+1. Crawling the repositories to calculate the usage of components
+1. Build charts based on gathered knowledge
+1. Design systems are very new concept, so sharp it to your own project. Use design thinking and user centred design
 (we can speak about it)
 
 ## Random thoughts
@@ -53,3 +53,18 @@ To continue, gather names of contributors and show them as the authors of the pa
 
 ### Use different sources (e.g. Wordpress) to make blogging culture
 Markdown is the easiest to build but quite a hardcore way for many. But with Gatsby you can have different  sources. For example, you can set up Wordpress as a CMS. Designers write posts, information is open. Also you can import from Medium, or from anywhere via RSS.
+
+### Extract md of dependent packages and turn into Gatsby pages
+The design system website as "single point of truth". Design system itself is single point of truth, so should be the website about it. All the information has to be gathered together, it also smooths the learning curve. Technically you can install the libraries packages as dependencies and import their markdown docs into website pages. TODO: refer to remark plugin for importing.
+
+### Interactive changelog?
+Similarly, we can get changelogs of the libraries. In GitHub they are stored as static pieces of text which is not super convinient when our fellow developers want to upgrade through many versions. We can improve GitHub flow and based on the extracted data make some kind of interactive changelog. This again smooths the learning curve and makes things easier for the people (one of the most important things in design systes, because it's a service!).
+
+### Crawling the repositories to calculate the usage of components
+This is more about measuring the impact of design systems, which is another huge topic. BTW, I am very much in it right now and if you would like to have a chat about it, please welcome to speak after the talk or in social networks. But again, from automation perrspective, if all the projects are in some repositories, let's say on GitHub Enterprise, wee can crawl repos and calculate the usage of components. Works for React components and for re-use of CSS classes. Similarly, we analyse dependencies in `package.json` at the projects and so we can learn the versions used.
+
+### Build charts based on gathered knowledge
+Most metrics cannot show much on their own but are more valuable in dynamics. As design system is usually not a solid product but constansly evolving thing (I would even say it's a process), we would like to "measure" that we are doing better not worse. For a human being, it's much more readable as a chart of graph. So, we can store gathered information and represent it on the weebsite as a chart component. TODO: Give examples.
+
+### Design systems are very new concept, so shape it to your own project. Use design thinking and user centred design
+As I mentioned, design system is a service and when providing tooling around it, you should consider your fellow developers and the users. Service design offers methods to develop new ideas and sharp the services for the users. Like, user-centred design etc. The ideas presenetd above were very much developed based on propoper user research which I made with my colleagues on existing design system. Usign similar methods, you can develop your own ideas or combine with the presented and shape your design system up to the needs of your company and projects.
