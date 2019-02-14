@@ -1,3 +1,8 @@
+Starting
+
+ ```
+ bundle exec jekyll serve
+ ```
 # Info
 
 ## List of ideas
