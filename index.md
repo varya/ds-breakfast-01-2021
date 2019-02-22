@@ -224,48 +224,95 @@ effectively.
 And as a business person, I would like to have a larger scale picture, maybe even with numbers of how much we earn or
 save.
 
+So, the role of a design system is to connect all those people and create environment for efficient collaboration.
+Design system itself is "Single Point of Thurth", a place, a tool a thing which communicates you how to build and
+maintain the products. This single point of truth needs proper representation, something real, from where we get the
+info.
 
-******
-
-
-Design system needs a website as "single point of truth". Styleguide is not such a website but just a part of it. Design
+A styleguide website which documents the components cannot be such a place but only a part of it. Design
 system is not only a library, also a visual language. On the most high level, it is processes and community work.
-Everything has to be documented. So, make a website.
+All these aspects have to be documented. Obvious respond to such a need is to implement a website. It is also can be
+interactive and provide tools and scenarios for its own evolving, it is even better.
 
 At the same time, it's good to automate as much as possible. So, it dictates the technical solution behind the website.
-My experience was with Gatsby. It was a lot of plugins, and you can write your own plugins (quite easy). I can show you
-some things to implement with it.
+It can be whatever you as a developer is comfortable with. My own experience was with GatsbyJS and I found out a lot of
+nice things about it applicable to building a design system website. Gatsby has a lot of plugins and it is quite easy to
+write your owns. So, it is very flexible and can easily respond your organization needs. I can show you some things I
+implemented with it, but beware there is no limits.
+-->
+
+
+## Basic structure
+
+Gatsby structure
+
+<!--
+
+Just to put you into context, this is a source structure of Gatsby website I was workinng with. Basically, the website
+had a structure of pages and one of the sections is blog. The content is stored in markdown files in the very same
+repository as Gatsby configuration and processing code. Gatsby does not dictate the source to be in markdown, on the
+contrary, thanks to its flexibility it can be whatever database or whatever file format. But for a quick start, it was
+super easy for me to have it in markdown.
+You do not see anything about components here because the styleguides of all the mentioned libraries are hosted on
+separate servers and domains. But this website has links to them, and so naavigation goes smooth for a user. Again,
+technically nothing prevents you from displaying the components and their documentation right here. It is just a matter
+of time and resources you have.
+
 -->
 
 
 ## Inserting React components into markdown in Gatsby
 
 <!--
-Example of Gatsby flexibility - you can insert React compnents into markdown, and they will be rendered. This way you
-can get React components from your library and describe them in a very flexible way on pages. A designer can write a
-text an illustrate it with the component. If you have "Reactified components", you can use it as well. It will also help
-the mind shift from HTML snippets to React tags.
 
-Besides, you can make custom components. They are not from your library but whatever else. Here only your fantacy can
-limit you. This way you create interactive documentation. Here are some examples from my experience:
-* Pattern Journey
-* Changelog (but later we did it differently)
-* Cartoon about flow
+Even though, storing in markdown sounds very tehcnical and probably not so much welcomming to a design aspect, thanks to
+Gatsby flexibility, it turns out to be useful. For example, with one of the plugins you can 
+insert React compnents into markdown, and they will be rendered. This way you
+can get React components from your library and describe them in a very flexible way on pages. A designer can write a
+text an illustrate it with the component. Even if your components are not in React but let's say in plain HTML/CSS, you
+still can provide generic React interface for them, similar to how it was done for usign Styleguidist or Storybook.
+This will simplify writing the documentation and also smoothly teach non-React people how beuatiful React is.
+Constrantly, they shift their mind from HTML snippets to React tags, and this will help with adopting the technology all
+over the company, if you need this.
+
 -->
 
 
 ## Welcome to edit the markdown source
 
 <!--
-Involve the community into the Design System project. Wokr with emotional ownership. Since it's markdown and we store it
-on GitHub, we can welcome people to edit. This speeds up the process of making docs actual.
+
+We are already speaking about community and contribution. There are different governance models for design systems.
+Sometimmes there is a dedicated team for its development, sometimes the whole process goes spontaniously. But in all the
+cases community work is welcomed. It does not have to be coding or designing. Contribution to documentation or sharing
+the ideas is also very crucial. At the end of the day, no one else but design system users know it from users'
+perspective.
+
+In order to involve the community into the Design System project, give them as much way to contribute as possible. Here
+again the Gatsby choice and hosting the source on GitHub helps a lot. It can be GitHub Entreprise, but with access for
+all the employees.
+
+We allow people to propose their text or code changes. If it is via GitHub pull requests, it is quite safe as still is
+reviewed by the team. But very important that all the colleagues, anyone of them feels a bit as an owner of the project.
+Smart books call it "emotional ownership", so don't skip this aspect.
+
+There is a bit of learning curve for non-technical people here. But not so large, they don't have to make any fork. Just
+provide a link to editting via GitHub interface and it's done. The pull requests can come as patches.
+
+This definetely speeds up the process, plays a large role in keeping the docs up-to-date and in general makes the design
+system *alive*.
+
 -->
 
 
 ## Gather all the contributor names from GitHub
 
 <!--
-To continue, gather names of contributors and show them as the authors of the page. This is like a prize. Also, it helps
+
+And a little tip here. If everything is editted with GitHub, we can alanyze the source history and get the names of all
+the contributors. It pays respect for people's work and I'm sure it is very pleasing to see yourself in the list.
+
+Secondary, it helps
 people to communicate. They can see whom to ask about specific things.
 -->
 
@@ -273,9 +320,11 @@ people to communicate. They can see whom to ask about specific things.
 ## Use different sources (e.g. Wordpress) to make blogging culture
 
 <!--
-Markdown is the easiest to build but quite a hardcore way for many. But with Gatsby you can have different  sources. For
-example, you can set up Wordpress as a CMS. Designers write posts, information is open. Also you can import from Medium,
-or from anywhere via RSS.
+
+If makrdown sounds too technical and not so much welcoming, you can use other sources. For example, not everyone finds
+blogging experience nice with Makrdown. Then, you can offer them faniliar solution, maywe Wordpress? With Gatsby, you
+can get data from there and still represent it on the website. This way, Wordpress acts like CMS. If it destroys
+barriers, then it's definitely a solution to go.
 -->
 
 
@@ -286,6 +335,17 @@ The design system website as "single point of truth". Design system itself is si
 website about it. All the information has to be gathered together, it also smooths the learning curve. Technically you
 can install the libraries packages as dependencies and import their markdown docs into website pages. TODO: refer to
 remark plugin for importing.
+-->
+
+
+## Custom React components
+
+<!--
+Besides, you can make custom components. They are not from your library but whatever else. Here only your fantacy can
+limit you. This way you create interactive documentation. Here are some examples from my experience:
+* Pattern Journey
+* Changelog (but later we did it differently)
+* Cartoon about flow
 -->
 
 
