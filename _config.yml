@@ -4,7 +4,7 @@ highlighter: pygments
 permalink: /:title.html
 relative_permalinks: false
 
-default_theme: ribbon
+default_theme: varya
 default_width: 792
 default_lang: en
 default_body_class: shower list
