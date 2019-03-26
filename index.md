@@ -214,10 +214,37 @@ making processes smooth and more transparent.
 
 
 ## React living styleguides
+{: .living-styleguides .no-title }
 
-Logo for Styleguidist and Storybook
+![](pictures/logo/styleguidist.png){: .styleguidist }
+![](pictures/logo/storybook.svg){: .storybook }
+<i class="whatever next">💁</i>
 
 Scheme of generating docs
+{: .next }
+
+<style>
+
+.living-styleguides .styleguidist,
+.living-styleguides .storybook,
+.living-styleguides .whatever {
+  width: 30%;
+  margin: 1%;
+}
+.living-styleguides .styleguidist,
+.living-styleguides .storybook {
+  width: 25%;
+  margin-right: 6%;
+}
+
+.living-styleguides .whatever {
+  display: inline-block;
+  font-size: 150px;
+  font-style: normal;
+  text-align: center;
+}
+
+</style>
 
 <!--
 
