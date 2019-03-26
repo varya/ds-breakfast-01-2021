@@ -53,12 +53,72 @@ tooling for them, creating supplementary tools and measuring their success.
 
 -->
 
-## Design Systems [in React world]
+## Design Systems <i>[in <b>React</b> world]</i>
+{: .react-world }
 
-- shared practises
-- tools
-- processes
-- community
+- …shared practises
+- …tools
+- …processes
+- …community
+{: .list }
+
+<style>
+
+.react-world h2 i {
+  color: #000;
+  font-style: normal;
+  text-transform: none;
+}
+
+.react-world h2 i b {
+  color: #61DAFB;
+  font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica
+  Neue,sans-serif;
+}
+
+.react-world .svg {
+  margin: 50px 100px;
+}
+
+.react-world .list {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  margin-top: -100px;
+  margin-left: 50%;
+}
+
+.react-world .list li.current {
+  font-family: 'Graphik Medium';
+}
+
+.react-world .list li:after {
+  position: fixed;
+  top: 50%;
+  left: 25%;
+  width: 200px;
+  margin-top: -100px;
+  margin-left: -50px;
+  display: none;
+}
+
+.react-world .list li.current:after {
+  display: block;
+}
+
+.react-world .list li:nth-child(1):after {
+  content: url('pictures/icons/web-design/042-solution.svg');
+}
+.react-world .list li:nth-child(2):after {
+  content: url('pictures/icons/web-design/029-settings.svg');
+}
+.react-world .list li:nth-child(3):after {
+  content: url('pictures/icons/user-experience/040-algorithm.svg');
+}
+.react-world .list li:nth-child(4):after {
+  content: url('pictures/icons/web-design/039-sharing.svg');
+}
+</style>
 
 <!--
 
@@ -93,6 +153,9 @@ design system. And it shuold help even non-React projects.
 I would like to underline this. Even if there is nothing of React in some design system, it still can help.
 For example, some companies stay with pure CSS/HTML libraries. But they also take advantage of the fancy
 approaches from the conferences. And I am going to show this by examples.
+
+Icons:
+<div>Icons made by <a href="http://www.freepik.com/" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" 		    title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" 		    title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>
 
 -->
 
