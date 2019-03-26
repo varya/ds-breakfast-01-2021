@@ -160,10 +160,10 @@ Icons:
 -->
 
 
-## Design system in Elisa
-{: .no-title .elisa }
 
-### Design system at
+## Design system at <b>Elisa</b>
+{: .elisa }
+
 <object
     class="ea-logo"
     type="image/svg+xml"
@@ -197,11 +197,14 @@ making processes smooth and more transparent.
 
 -->
 <style>
-.elisa h3 {
+.elisa h2 {
    display: inline-block;
-   color: #000;
-   margin-bottom: 1.5em;
 }
+
+.elisa h2 b {
+  display: none;
+}
+
 .ea-logo {
   width: 200px;
   height: 80px;
