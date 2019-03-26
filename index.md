@@ -275,8 +275,30 @@ By that time you already have some set up for the tools.
 
 
 ## Visual regression tests
+{: .vr-tests }
 
-Illustration of visual regression tests
+![](pictures/spot-difference.png)
+
+<style>
+.vr-tests {
+  text-align: center;
+}
+</style>
+
+## This is CSS
+{: .no-title .this-is-css }
+
+![](pictures/css1.jpg)
+
+<style>
+.this-is-css {
+  text-align: center;
+}
+</style>
+
+## Visual regression tests
+
+![](pictures/visual-regression-diff.png)
 
 Example of a command to run
 
