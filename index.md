@@ -301,11 +301,14 @@ By that time you already have some set up for the tools.
 ## This is CSS
 {: .no-title .this-is-css }
 
-![](pictures/css1.jpg)
+![](pictures/css1.jpg){: .meme}
 
 <style>
 .this-is-css {
   text-align: center;
+}
+.this-is-css .meme {
+  height: 500px;
 }
 </style>
 
