@@ -32,6 +32,12 @@ style: |
         }
 
 
+    .slide--center {
+      text-align: center;
+    }
+    .slide--center .slide__content {
+      text-align: justify;
+    }
     .no-title h2 {
       display: none;
     }
@@ -54,7 +60,7 @@ tooling for them, creating supplementary tools and measuring their success.
 -->
 
 ## Design Systems <i>[in <b>React</b> world]</i>
-{: .react-world }
+{: .react-world .slide--center }
 
 - …shared practises
 - …tools
@@ -81,10 +87,7 @@ tooling for them, creating supplementary tools and measuring their success.
 }
 
 .react-world .list {
-  position: absolute;
-  top: 50%;
-  left: 0;
-  margin-top: -100px;
+  position: relative;
   margin-left: 50%;
 }
 
