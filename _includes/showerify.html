@@ -40,6 +40,8 @@
                     {% assign newslide = newslide | replace_first:'><strong>','>' %}
                     {% assign newslide = newslide | replace_first:'</strong></h2>','</h2>' %}
                 {% endif %}
+                {% assign newslide = newslide | replace_first:'</h2>','</h2><div class="slide__content">' %}
+                {% assign newslide = newslide | replace_first:'</section>','</section></div">' %}
                 {% capture showerify_middle %}{{ showerify_middle }}{{ newslide }}{% endcapture %}
             {% endif %}
         {% endfor %}
