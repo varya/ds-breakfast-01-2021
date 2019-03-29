@@ -313,10 +313,9 @@ By that time you already have some set up for the tools.
 </style>
 
 ## Visual regression tests
+{: .slide--center }
 
 ![](pictures/visual-regression-diff.png)
-
-Example of a command to run
 
 <!--
 
