@@ -383,7 +383,66 @@ So, the role of a design system is to connect all those people and create enviro
 Design system itself is "Single Point of Thurth", a place, a tool a thing which communicates you how to build and
 maintain the products. This single point of truth needs proper representation, something real, from where we get the
 info.
+-->
 
+
+## Design system website
+{: .ds-website .slide--center }
+
+* patterns
+* visual language
+* processes
+* community
+* design tokens
+* notes
+* design principles
+* documentation
+* guidelines
+* naming conventions
+* brand
+* vocabulary
+* changelog
+{: .tag-cloud }
+
+![](pictures/logo/gatsbyjs.svg){: .gatsby-logo .next }
+
+<style>
+
+.ds-website .slide__content {
+  text-align: center;
+}
+
+.ds-website .tag-cloud {
+  display: inline;
+  list-style-type: none;
+  width: 400px;
+}
+
+.ds-website .tag-cloud li {
+  list-style: none;
+  display: inline;
+}
+.ds-website .tag-cloud li:before {
+  display: none;
+}
+
+.ds-website .tag-cloud li:nth-of-type(3n + 1) {
+    font-size: 1.5em;
+}
+.ds-website .tag-cloud li:nth-of-type(4n+3) {
+    font-size: 2em;
+}
+.ds-website .tag-cloud li:nth-of-type(5n - 3) {
+    font-size: 1.25em;
+}
+
+.ds-website .gatsby-logo {
+  width: 400px;
+}
+
+</style>
+
+<!--
 A styleguide website which documents the components cannot be such a place but only a part of it. Design
 system is not only a library, also a visual language. On the most high level, it is processes and community work.
 All these aspects have to be documented. Obvious respond to such a need is to implement a website. It is also can be
