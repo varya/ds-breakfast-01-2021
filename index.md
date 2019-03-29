@@ -180,6 +180,16 @@ Icons:
 * Libraries of React components
 * Shared tools and practices
 
+<style>
+
+.elisa .ea-logo {
+  position: fixed;
+  top: 45px;
+  left: 550px;
+}
+
+</style>
+
 <!--
 
 The examples I will be giving are based on experience of working with design system at Elisa.
