@@ -334,9 +334,34 @@ not only about visual tests. If we generalize the idea, we can think about using
 -->
 
 
-## Design systme website
+## What is it for me?
+{: .slide--center }
 
-### Gatsby
+<div class="triple" markdown="1">
+
+![](pictures/icons/avatar/008-programmer.svg){: .svg .role--developer }
+
+* Release notes
+* Documentation
+{: .next }
+
+![](pictures/icons/design-thinking/idea-1.svg){: .svg .role--designer }
+
+* Tone of voice
+* Design specs
+{: .next }
+
+![](pictures/icons/avatar/001-writer.svg){: .svg .role--manager }
+
+* Strategy
+* Roadmap
+{: .next }
+
+</div>
+
+<!--
+<div>Icons made by <a href="https://creativemarket.com/eucalyp" title="Eucalyp">Eucalyp</a> from <a href="https://www.flaticon.com/" 		    title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" 		    title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>
+-->
 
 <!--
 
