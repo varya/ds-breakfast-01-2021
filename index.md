@@ -456,9 +456,27 @@ implemented with it, but beware there is no limits.
 -->
 
 
-## Basic structure
+## How Gatsby works
+{: .gatsby-basics .slide--full-image }
 
-Gatsby structure
+![](pictures/gatsby-diagram.png){: .schema }
+
+Credits: Robert Ngo, [Decoupling Drupal with Gatsby](https://evolvingweb.ca/blog/decoupling-drupal-gatsby)
+{: .credits }
+
+<style>
+
+.gatsby-basics .schema {
+  height: 100%;
+}
+
+.gatsby-basics .credits {
+  transform: rotate(-90deg) translateY(475px);
+  font-size: 0.75em;
+  color: grey;
+}
+
+</style>
 
 <!--
 
