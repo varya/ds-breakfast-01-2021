@@ -485,11 +485,57 @@ had a structure of pages and one of the sections is blog. The content is stored 
 repository as Gatsby configuration and processing code. Gatsby does not dictate the source to be in markdown, on the
 contrary, thanks to its flexibility it can be whatever database or whatever file format. But for a quick start, it was
 super easy for me to have it in markdown.
+
+-->
+
+## Design system website
+{: .ds-website-structure }
+
+### example of structure
+{: .subtitle }
+
+<div class="double" markdown="1">
+
+```
+content/
+  pages/
+    docs/
+    about/
+      team/index.md
+      workflow/index.md
+      index.md
+  posts/
+    welcome-to-new-ds-website/
+      index.md
+      thumb.png
+```
+{: .file-structure }
+
+* Home
+* Docs
+* Style Guide
+* Blog
+* About
+
+</div>
+
+<style>
+
+.ds-website-structure .file-structure code {
+  line-height: 1.5em;
+  font-size: 0.75em;
+}
+
+</style>
+
+<!--
+
+TODO: describe the structure
+
 You do not see anything about components here because the styleguides of all the mentioned libraries are hosted on
 separate servers and domains. But this website has links to them, and so naavigation goes smooth for a user. Again,
 technically nothing prevents you from displaying the components and their documentation right here. It is just a matter
 of time and resources you have.
-
 -->
 
 
