@@ -53,7 +53,7 @@ style: |
 <!--
 
 Hello. Let's thank Andrey for a very comprehensive introduction to the design systems and explaning their value. My name
-is Varya Stepanova and I am going to continue with the same topic. Since we are here at the React conference, I would
+is Varya and I am going to continue with the same topic. Since we are here at the React conference, I would
 like to cover how we could apply React or even more generally speaking JavaScript to building design systems, providing
 tooling for them, creating supplementary tools and measuring their success.
 
@@ -136,7 +136,7 @@ experience, I would say that a design system is
 
 - shared practises<br/>
   Shared practises, based on which you design your product or bunch of products under the same brand. Components go
-  here, but this is not only about them. The practises can be more anstract or more design related such as visual
+  here, but this is not only about them. The practises can be more abstract or more design related such as visual
   language or tone of voice. Or on the contrary, they can be deeply technical and reflect your approach to code.
 - tools<br/>
   This brings us to tools which our company could have for all the developers and designers to share. As we are speaking
@@ -145,7 +145,7 @@ experience, I would say that a design system is
   At some level, design systems would mean the processes which are followed in the company to achieve the outlined
   goals.
 - community<br/>
-  Ans finally, working with our fellow developers, designers and project owners as with a community also resonates with
+  Finally, working with our fellow developers, designers and project owners as with a community also resonates with
   design system goals.
 
 Even though the components were only mentioned in the beginning, we can apply technologies to all of these aspects of
@@ -197,7 +197,7 @@ The examples I will be giving are based on experience of working with design sys
 For those who are not from Finland or Estonia, Elisa is our local telecommunication operator and content provider with a
 long history and dozens of digital products which are offered under the same brand.
 
-It's a huge product which includes several UI libraries. Some libraries are in React but there is also a plain HTML/CSS
+Elisa Design System a huge product which includes several UI libraries. Some libraries are in React but there is also a plain HTML/CSS
 library which still needs a lot of automations and technological support.
 
 Besides, there is a large UI kit in Sketch.
