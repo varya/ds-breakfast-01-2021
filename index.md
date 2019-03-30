@@ -539,6 +539,18 @@ of time and resources you have.
 -->
 
 
+## Little bit more
+{: .little-bit-more .slide--shout .slide--highlighted }
+
+![](pictures/icons/design-thinking/graphic-design-5.svg){: .svg .image }
+
+<style>
+.little-bit-more .image {
+  width: 250px;
+}
+</style>
+
+
 ## Inserting React components into markdown in Gatsby
 
 <!--
