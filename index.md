@@ -609,7 +609,45 @@ of time and resources you have.
 </style>
 
 
-## Inserting React components into markdown in Gatsby
+## React components in texts
+{: .react-in-markdown }
+
+<div class="double" markdown="1">
+
+components/BodyText.js
+```
+const renderAst = new rehypeReact({
+  createElement: React.createElement,
+  components: {
+    <mark class="important">'comp-my-button': MyButton,</mark>
+  },
+}).Compiler;
+```
+{: .code }
+
+pages/my-page/index.md
+```
+title: Title of your page
+---
+Page text and living
+<mark class="important"><comp-my-button></comp-my-button></mark>.
+```
+{: .code }
+
+</div>
+
+<style>
+
+.react-in-markdown .double {
+  margin-right: -2em;
+  column-rule: 1px solid lightgrey;
+}
+
+.react-in-markdown .code {
+  font-size: 0.75em;
+}
+
+</style>
 
 <!--
 
