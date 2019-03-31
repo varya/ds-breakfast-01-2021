@@ -318,6 +318,7 @@ By that time you already have some set up for the tools.
 }
 </style>
 
+
 ## This is CSS
 {: .no-title .this-is-css }
 
@@ -331,6 +332,7 @@ By that time you already have some set up for the tools.
   height: 500px;
 }
 </style>
+
 
 ## Visual regression tests
 {: .slide--center }
