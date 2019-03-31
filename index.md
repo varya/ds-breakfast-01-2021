@@ -299,6 +299,26 @@ By that time you already have some set up for the tools.
 -->
 
 
+## Designers update libs
+{: .designers-update-libs .no-title .slide--center }
+
+<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Designers updating their design libraries 🥵 <a href="https://t.co/ojFRhj8Smo">https://t.co/ojFRhj8Smo</a></p>&mdash; Alex 🌚 (@alexmuench) <a href="https://twitter.com/alexmuench/status/1111297292215246850?ref_src=twsrc%5Etfw">March 28, 2019</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<style>
+
+.designers-update-libs .slide__content {
+  text-align: center;
+}
+
+.designers-update-libs twitter-widget {
+  transform: scale(0.75) translateY(-125px) !important;
+  margin: 0 auto !important;
+}
+
+</style>
+
+
 ## Why React?
 {: .why-react }
 
