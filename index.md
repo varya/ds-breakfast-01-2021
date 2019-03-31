@@ -226,6 +226,18 @@ making processes smooth and more transparent.
 </style>
 
 
+## To react or not to react?
+{: .react-or-no .slide--shout .slide--primary }
+
+![](pictures/icons/web-design/001-coding.svg){: .svg .image }
+
+<style>
+.react-or-no .image {
+  width: 250px;
+}
+</style>
+
+
 ## React living styleguides
 {: .living-styleguides }
 
@@ -332,6 +344,22 @@ package to unstall and then run a command. That simple.
 Combining this idea with generating stories, you can take advantage of the plugins even for non-React projects. This is
 not only about visual tests. If we generalize the idea, we can think about using React ecosystem for non-React projects.
 -->
+
+
+## Style Guide <b>vs</b> Design System
+{: .style-guide_design-system .slide--shout .slide--primary-light }
+
+![](pictures/icons/design-thinking/web-design.svg){: .svg .image }
+
+<style>
+.style-guide_design-system b {
+  text-transform: lowercase;
+}
+
+.style-guide_design-system .image {
+  width: 250px;
+}
+</style>
 
 
 ## What is it for me?
