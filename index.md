@@ -664,7 +664,22 @@ over the company, if you need this.
 -->
 
 
-## Welcome to edit the markdown source
+## Welcome to contribute
+{: .contribute .reward }
+
+### Input
+
+```
+<input placeholder="Placeholder Text"
+    class="input" type="text" value="" />
+```
+{: .code }
+
+Text inputs are accompanied by a label and wrapped inside a fieldset. The :hover and :focus styles follow our brand
+colors.
+
+[Edit this page on GitHub](){: .edit }
+
 
 <!--
 
@@ -691,7 +706,87 @@ system *alive*.
 -->
 
 
-## Gather all the contributor names from GitHub
+## Reward the contributors
+{: .reward }
+
+### Input
+
+25.04.2019 · Contributors
+<i class="github-userpic github-userpic--freiksenet"></i>
+<i class="github-userpic github-userpic--saravieira"></i>
+<i class="github-userpic github-userpic--bebraw"></i>
+
+```
+<input placeholder="Placeholder Text"
+    class="input" type="text" value="" />
+```
+{: .code }
+
+Text inputs are accompanied by a label and wrapped inside a fieldset. The :hover and :focus styles follow our brand
+colors.
+
+[Edit this page on GitHub](){: .edit }
+
+<style>
+
+.reward .slide__content {
+  border: grey 1px solid;
+  padding: 1em 1em 0;
+  font-size: 0.75em;
+}
+
+.reward .code {
+  background-color: black;
+  color: lightyellow;
+  padding: 1em;
+  font-size: 0.8em;
+}
+
+.reward .github-userpic {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-size: cover;
+  vertical-align: middle;
+  margin: 0 0.125em;
+  margin-top: -0.25em;
+}
+
+.reward .github-userpic--bebraw {
+  background-image: url(https://avatars3.githubusercontent.com/u/166921?s=460&v=4);
+}
+
+.reward .github-userpic--freiksenet {
+  background-image: url(https://avatars0.githubusercontent.com/u/172936?s=460&v=4);
+}
+
+.reward .github-userpic--saravieira {
+  background-image: url(https://avatars0.githubusercontent.com/u/1051509?s=460&v=4);
+}
+
+.reward .edit {
+  color: black;
+  background-color: lightgrey;
+  background-image: none;
+  display: inline-block;
+  padding: 0 0.5em 0 1em;
+  font-size: 0.8em;
+  position: relative;
+}
+
+.reward .edit:after {
+  display: block;
+  content: '';
+  border-top: 1em solid transparent;
+  border-bottom: 1em solid lightgrey; /* 40px height (20+20) */
+  border-left: 1em solid lightgrey;
+  position: absolute;
+  top: 0;
+  right: -1em;
+}
+
+</style>
 
 <!--
 
