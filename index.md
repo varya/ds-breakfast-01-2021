@@ -810,7 +810,7 @@ people to communicate. They can see whom to ask about specific things.
 * Announcements
 * Plans and strategies
 * Involving the community
-* **Everyone takes stage**
+* <b>Everyone takes stage</b>
 {: .next .list }
 
 <style>
