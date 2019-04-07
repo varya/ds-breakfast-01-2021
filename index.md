@@ -798,7 +798,43 @@ people to communicate. They can see whom to ask about specific things.
 -->
 
 
+## Share information
+{: .blogging }
+
+<blockquote class="twitter-tweet" data-lang="fi"><p lang="en" dir="ltr">Most design problems are really people problems.</p>&mdash; zeldman (@zeldman) <a href="https://twitter.com/zeldman/status/1112840913636745216?ref_src=twsrc%5Etfw">1. huhtikuuta 2019</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+### Blogging
+{: .next .list-title }
+
+* Announcements
+* Plans and strategies
+* Involving the community
+* **Everyone takes stage**
+{: .next .list }
+
+<style>
+
+.blogging twitter-widget {
+  transform: scale(0.75) translateY(-125px) !important;
+  display: inline !important;
+}
+
+.blogging .list-title {
+  transform: rotate(270deg) translateX(195px) translateY(-385px);
+  font-size: 1.5em;
+}
+
+.blogging .list {
+  margin-left: 2.5em;
+  margin-top: -1em;
+}
+
+</style>
+
 ## Use different sources (e.g. Wordpress) to make blogging culture
+
+
 
 <!--
 
