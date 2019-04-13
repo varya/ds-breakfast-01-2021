@@ -833,7 +833,107 @@ people to communicate. They can see whom to ask about specific things.
 </style>
 
 ## Use different sources (e.g. Wordpress) to make blogging culture
+{: .sources }
 
+![](pictures/logo/markdown.png){: .source .source1 }
+![](pictures/logo/airtable.png){: .source .source2 }
+![](pictures/logo/prismic.png){: .source .source3 }
+![](pictures/logo/googledocs.png){: .source .source4 }
+![](pictures/logo/figma.png){: .source .source5 }
+![](pictures/logo/wordpress.png){: .source .source6 }
+<div class="source source__fade"></div>
+![](pictures/logo/wordpress.png){: .source .source--last }
+
+<style>
+.sources .source {
+  width: 200px;
+  position: fixed;
+  animation-name: SourceLogo;
+  animation-duration: 3s;
+  opacity:0;
+}
+
+@-webkit-keyframes SourceLogo {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes SourceLogo {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes SourceFade {
+  0% {
+    opacity: 1;
+  }
+  99% {
+    opacity: 0;
+  }
+  100% {}
+}
+
+@keyframes SourceFade {
+  0% {
+    opacity: 1;
+  }
+  99% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+.sources .source1 {
+  animation-delay: 0;
+}
+.sources .source2 {
+  animation-delay: 3s;
+}
+.sources .source3 {
+  animation-delay: 6s;
+}
+.sources .source4 {
+  animation-delay: 9s;
+}
+.sources .source5 {
+  animation-delay: 12s;
+}
+.sources .source6 {
+  animation-delay:15s;
+}
+.sources .source--last {
+  opacity: 1;
+  z-index: -2;
+}
+.sources .source__fade {
+  display: inline-block;
+  content: '';
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  background-color: white;
+  z-index: -1;
+  opacity: 0;
+  animation-name: SourceFade;
+  animation-duration: 18s;
+}
+</style>
 
 
 <!--
