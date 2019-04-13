@@ -832,8 +832,10 @@ people to communicate. They can see whom to ask about specific things.
 
 </style>
 
-## Use different sources (e.g. Wordpress) to make blogging culture
+## Cherish in-house blogging
 {: .sources }
+
+<div class="container" markdown="1">
 
 ![](pictures/logo/markdown.png){: .source .source1 }
 ![](pictures/logo/airtable.png){: .source .source2 }
@@ -844,10 +846,34 @@ people to communicate. They can see whom to ask about specific things.
 <div class="source source__fade"></div>
 ![](pictures/logo/wordpress.png){: .source .source--last }
 
+</div>
+
+![](pictures/arrow.png){: .arrow }
+![](pictures/logo/graphql.png){: .graphql }
+![](pictures/arrow.png){: .arrow }
+![](pictures/logo/gatsbyjs.svg){: .gatsby }
+{: .schema }
+
+### Give familiar interface
+
+People are not used to writing markdown and edit files on GitHub?
+Offer them <b>Wordpress as a source</b> for your design system website blog.
+
 <style>
+
+.source .slide__container {
+  text-align: center;
+}
+
+.sources .container {
+  position: relative;
+}
 .sources .source {
-  width: 200px;
-  position: fixed;
+  width: 150px;
+  margin-top: 15px;
+  position: absolute;
+  top: 0;
+  left: 0;
   animation-name: SourceLogo;
   animation-duration: 3s;
   opacity:0;
@@ -933,6 +959,25 @@ people to communicate. They can see whom to ask about specific things.
   animation-name: SourceFade;
   animation-duration: 18s;
 }
+
+.sources .schema {
+  margin-left: 150px;
+}
+
+.sources .graphql {
+  width: 150px;
+}
+
+.sources .gatsby {
+  width: 250px;
+  margin-bottom: 15px;
+}
+
+.sources .arrow {
+  width: 100px;
+  margin: 50px 0;
+}
+
 </style>
 
 
