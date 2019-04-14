@@ -1123,6 +1123,18 @@ for the people (one of the most important things in design systes, because it's 
 -->
 
 
+## Show meta data
+{: .meta-data .slide--shout .slide--highlighted }
+
+![](pictures/icons/office-set/analysis-chart.svg){: .svg .image }
+
+<style>
+.meta-data .image {
+  width: 250px;
+}
+</style>
+
+
 ## Crawling the repositories to calculate the usage of components
 
 <!--
