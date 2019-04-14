@@ -89,6 +89,7 @@ tooling for them, creating supplementary tools and measuring their success.
 .react-world .list {
   position: relative;
   margin-left: 50%;
+  margin-top: 4em;
 }
 
 .react-world .list li.current {
