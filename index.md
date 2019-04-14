@@ -1135,20 +1135,53 @@ for the people (one of the most important things in design systes, because it's 
 </style>
 
 
-## Crawling the repositories to calculate the usage of components
+## What is our design system
+{: .what-is .slide--center }
+
+<div class="double" markdown="1">
+
+![](pictures/icons/office-set/objective-searching.svg){: .svg .image }
+
+### Get the data
+
+* Crawl repositories
+* Inject scripts on production
+* Grab data from task managers
+
+![](pictures/icons/web-design/050-analytics.svg){: .svg .image }
+
+### Show the data
+
+* Numbers
+* Links
+* Charts
+
+</div>
+
+<style>
+
+.what-is .slide__content {
+  padding-left: 2.5em;
+  text-align: left;
+}
+
+.what-is .image {
+  width: 100px;
+  margin-left: 3em;
+}
+
+</style>
 
 <!--
+## Crawling the repositories to calculate the usage of components
 This is more about measuring the impact of design systems, which is another huge topic. BTW, I am very much in it right
 now and if you would like to have a chat about it, please welcome to speak after the talk or in social networks. But
 again, from automation perrspective, if all the projects are in some repositories, let's say on GitHub Enterprise, wee
 can crawl repos and calculate the usage of components. Works for React components and for re-use of CSS classes.
 Similarly, we analyse dependencies in `package.json` at the projects and so we can learn the versions used.
--->
 
+Links: to the usage of the components
 
-## Build charts based on gathered knowledge
-
-<!--
 Most metrics cannot show much on their own but are more valuable in dynamics. As design system is usually not a solid
 product but constansly evolving thing (I would even say it's a process), we would like to "measure" that we are doing
 better not worse. For a human being, it's much more readable as a chart of graph. So, we can store gathered information
