@@ -1041,6 +1041,34 @@ Icon:
 
 
 ## Custom React components
+{: .custom-react .slide--center }
+
+![](pictures/icons/design-thinking/sketchbook.svg){: .svg .image }
+
+* Interactive schemas
+* Adjustable docs
+* Cartoons
+* <s>Entertainers</s> Problem solvers
+{: .list }
+
+<style>
+
+.custom-react .image {
+  position: fixed;
+  top: 50%;
+  left: 25%;
+  width: 200px;
+  margin-top: -100px;
+  margin-left: -50px;
+}
+
+.custom-react .list {
+  position: relative;
+  margin-left: 50%;
+  margin-top: 4em;
+}
+
+</style>
 
 <!--
 Besides, you can make custom components. They are not from your library but whatever else. Here only your fantacy can
