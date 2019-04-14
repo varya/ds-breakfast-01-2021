@@ -990,7 +990,27 @@ barriers, then it's definitely a solution to go.
 -->
 
 
-## Extract md of dependent packages and turn into Gatsby pages
+## One single point of truth
+{: .deps-info }
+
+### Extract info from packages and repos
+
+<div class="double" markdown="1">
+
+Make your design system website a place where all the info can be found at any time.<br/>
+*Display markdown from libraries, tools and related repositories on the website pages.*
+
+![](pictures/icons/office-set/business-affiliate-network.svg){: .svg .connection }
+
+</div>
+
+<style>
+
+.deps-info .connection {
+  width: 300px;
+}
+
+</style>
 
 <!--
 The design system website as "single point of truth". Design system itself is single point of truth, so should be the
