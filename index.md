@@ -1080,6 +1080,40 @@ limit you. This way you create interactive documentation. Here are some examples
 
 
 ## Interactive changelog?
+{: .interactive-changelog .slide--center }
+
+![](pictures/icons/user-experience/010-rocket.svg){: .svg .image }
+
+Get <span class="plain">plain data</span> from GitHub<br/> 
+and represent it in a <span class="friendly">friendly interface</span>!
+{: .idea }
+
+<style>
+
+.interactive-changelog .slide__content {
+  text-align: center;
+}
+
+.interactive-changelog .image {
+  width: 200px;
+}
+
+.interactive-changelog .idea {
+  font-size: 1.25em;
+}
+
+.interactive-changelog .plain {
+  color: grey;
+  font-family: 'Graphik Medium';
+}
+
+.interactive-changelog .friendly {
+  background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);   -webkit-background-clip: text;
+  color: transparent;
+  font-family: 'Graphik Medium';
+}
+
+</style>
 
 <!--
 Similarly, we can get changelogs of the libraries. In GitHub they are stored as static pieces of text which is not super
