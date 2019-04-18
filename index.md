@@ -647,9 +647,6 @@ checkings and run them regularly. This is what visual regression tests are meant
 
 <!--
 
-Using standard and community-supported living style guide you can enjoy supplementary tools. For example, you can have
-visual regression tests for your components quite nicely and without much pain.
-
 I have a lot of experience with custom set ups. They served the purpose but took much more time to maintain. So, I think
 it is always better to re-use the community work and adopt the common solution.
 
