@@ -397,28 +397,6 @@ approaches from the conferences. And I am going to show this by examples.
   left: 550px;
 }
 
-</style>
-
-<!--
-
-The examples I will be giving are based on experience of working with design system at Elisa.
-
-For those who are not from Finland or Estonia, Elisa is our local telecommunication operator and content provider with a
-long history and dozens of digital products which are offered under the same brand.
-
-Elisa Design System a huge product which includes several UI libraries. Some libraries are in React but there is also a plain HTML/CSS
-library which still needs a lot of automations and technological support.
-
-Besides, there is a large UI kit in Sketch.
-
-Apart from technical perspecitive,
-design system at Elisa means communication practises, visual guidelines, shared processes and tools.
-
-So, during the last year, I had a lot of opportunities to apply different technologies for supporting this ecosystems,
-making processes smooth and more transparent.
-
--->
-<style>
 .elisa h2 {
    display: inline-block;
 }
@@ -432,7 +410,28 @@ making processes smooth and more transparent.
   height: 80px;
   margin: 0 15px -15px;
 }
+
 </style>
+
+<!--
+
+The examples and ideas I will be giving are based on experience of working with design system at Elisa.
+
+For those who are not from Finland or Estonia, Elisa is our local telecommunication operator and content provider with a
+long history and dozens of digital products which are offered under the same brand.
+
+Elisa Design System a huge product which includes several UI libraries. Some libraries are in React but there is also
+a plain HTML/CSS library which still needs a lot of automations and technological support.
+
+Besides, there is a large UI kit in Sketch.
+
+Apart from technical perspecitive,
+design system at Elisa means communication practises, visual guidelines, shared processes and tools.
+
+So, during the last year, I had a lot of opportunities to apply different technologies for supporting this ecosystems,
+making processes smooth and more transparent.
+
+-->
 
 
 ## To react or not to react?
