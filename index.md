@@ -339,6 +339,8 @@ design systems. I started my own consultancy and hope to be a help for the proje
 
 <!--
 
+Now, let's define once again what design systems are.
+
 In the context of React as technology, ecosystem and community, design systems are often mentioned as high-level
 component libraries. This is indeed a huge aspect of them but a solid design system is never only a library.
 
@@ -348,31 +350,24 @@ we find out that design system is much more.
 As it is yet evolving concept, our understanding of it is changing, so there is no definition. But speaking from
 experience, I would say that a design system is
 
-- shared practises<br/>
-  Shared practises, based on which you design your product or bunch of products under the same brand. Components go
+  - Shared practises, based on which you design your product or bunch of products under the same brand. Components go
   here, but this is not only about them. The practises can be more abstract or more design related such as visual
   language or tone of voice. Or on the contrary, they can be deeply technical and reflect your approach to code.
-- tools<br/>
-  This brings us to tools which our company could have for all the developers and designers to share. As we are speaking
+  - This brings us to tools which our company could have for all the developers and designers to share. As we are speaking
   about design systems as a way of standartizing, they fit there.
-- processes<br/>
-  At some level, design systems would mean the processes which are followed in the company to achieve the outlined
+  - At some level, design systems would mean the processes which are followed in the company to achieve the outlined
   goals.
-- community<br/>
-  Finally, working with our fellow developers, designers and project owners as with a community also resonates with
+  - Finally, working with our fellow developers, designers and project owners as with a community also resonates with
   design system goals.
 
 Even though the components were only mentioned in the beginning, we can apply technologies to all of these aspects of
 design systems.
 In the following talk I will show examples of applying React, Gatsby and some other JavaScript buzzwords to a
-design system. And it shuold help even non-React projects.
+design system. And it should help even non-React projects.
 
 I would like to underline this. Even if there is nothing of React in some design system, it still can help.
 For example, some companies stay with pure CSS/HTML libraries. But they also take advantage of the fancy
 approaches from the conferences. And I am going to show this by examples.
-
-Icons:
-<div>Icons made by <a href="http://www.freepik.com/" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" 		    title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" 		    title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>
 
 -->
 
