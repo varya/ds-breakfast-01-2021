@@ -631,6 +631,14 @@ time-consuming, not creative or interesting thing at all, and very inefficient.
 }
 </style>
 
+<!--
+
+At the same time, this is something we cannot skip at all because CSS does bring us surprises like in the picture.
+Editting something we can break the things in some other place. So, its is much recommended to have some automated
+checkings and run them regularly. This is what visual regression tests are meant to serve.
+
+-->
+
 
 ## Visual regression tests
 {: .slide--center }
