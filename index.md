@@ -193,6 +193,74 @@ tooling for them, creating supplementary tools and measuring their success.
 
 -->
 
+## Me
+{: .no-title .about-me }
+
+![](pictures/me.jpg){: .photo }
+
+### Varya Stepanova
+<b>Expert in Design Systems</b><br/>
+<small>Frontend enginner, service designer</small>
+
+#### Contacts
+* [@varya_en](https://twitter.com/varya_en){: .twitter }
+* [varya.me](http://varya.me){: .web }
+* [mail@varya.me](mailto:mail@varya.me)
+{: .contacts }
+
+#### Areas of expertise
+Design systems: production and governance,<br/>pattern libraries, style guides, UI/UX, front end.
+
+<style>
+.about-me p {
+  font-size: 80%;
+}
+.about-me .photo {
+  float: left;
+  width: 300px;
+  margin-top: 1em;
+  margin-bottom: 6em;
+  margin-right: 1em;
+  border-radius: 50%;
+}
+
+.about-me h4 {
+  color: #ca4e1f;
+  font: 1em/1 'FF Meta Serif',sans-serif;
+  margin-bottom: .5em;
+}
+.about-me b {
+  font-size: 1.25em;
+}
+
+.about-me .contacts {
+  line-height: 1;
+  font-size: 0.8em;
+}
+.about-me .contacts li:before {
+  content: '';
+}
+
+.about-me .twitter
+{
+  text-decoration: none;
+  color: currentColor;
+  background: none;
+  border-bottom: 0;
+}
+.about-me .twitter::before
+{
+  content: "";
+  display: inline-block;
+  width: 1.5em;
+  height: 1.5em;
+  background-image:url('pictures/twitter-logo.png');
+  background-size: cover;
+  margin-right: 0.5em;
+  margin-bottom: -0.5em;
+}
+</style>
+
 ## Design Systems <i>[in <b>React</b> world]</i>
 {: .react-world .slide--center }
 
