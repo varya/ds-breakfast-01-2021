@@ -445,20 +445,20 @@ making processes smooth and more transparent.
 }
 </style>
 
+<!--
+
+As I said, a part of the product was a plain CSS/HTMl library which seems to be not related to the topic of React. But
+let's have a closer look.
+
+-->
+
 
 ## React living styleguides
 {: .living-styleguides }
 
-<div class="double" markdown="1">
-
 ![](pictures/logo/styleguidist.png){: .styleguidist }<br/>
 ![](pictures/logo/storybook.svg){: .storybook }<br/>
 <i class="whatever next">💁</i>
-
-Scheme of generating docs
-{: .next }
-
-</div>
 
 <style>
 
