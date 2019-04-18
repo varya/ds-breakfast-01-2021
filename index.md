@@ -261,6 +261,17 @@ Design systems: production and governance,<br/>pattern libraries, style guides, 
 }
 </style>
 
+<!--
+
+First, a few words about myself. Design Systems has been my major focus even before the buzzword appeared. I have over
+10 years of experience in frontend development, mostly doing the things related to the components on the web. Back then
+it was CSS and JavaScript technologies for component production, later styleguides and pattern libraries, and nowadays
+finally design systems. I worked on technical aspects of design systems in several projects and also did a lot of
+oranizational work, technical evangelism and design system leadership. At the moment, I am self-employed expert in
+design systems. I started my own consultancy and hope to be a help for the projects which need it.
+
+-->
+
 ## Design Systems <i>[in <b>React</b> world]</i>
 {: .react-world .slide--center }
 
