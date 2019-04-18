@@ -486,7 +486,40 @@ solutions. They provide nice isolation, help with styleguide-driven development 
 different purposes. Such solutions are huge help when developing a React project or / in design systems context / a
 library of React components.
 
-But it is possible to use these tools also for plain HTML/CSS libraries as well.
+But it is possible to use these tools also for plain HTML/CSS libraries as well?
+
+-->
+
+
+## React for non-React
+{: .slide--center .react4non-react }
+
+* Parse code snippets
+* Reactify
+  ```
+  <button class="myButton">
+  <button className="myButton" />
+  ```
+  {: .code }
+* Create stories
+* <b>Automate</b>
+{: .list }
+
+<style>
+
+.react4non-react .slide__content {
+  text-align: center;
+}
+
+.react4non-react .list {
+  text-align: left;
+  margin: 0 auto;
+  width: 500px;
+}
+
+</style>
+
+<!--
 
 What we need to enjoy Styleguidist or Storybook? We should have our code snippets in a special format. It is in markdown
 for Styleguidist and in JavaScript for Storybook.
