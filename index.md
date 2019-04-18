@@ -559,6 +559,19 @@ By that time you already have some set up for the tools.
 
 </style>
 
+<!--
+
+Why is it all needed and why did I start to speak about that?
+
+Recently I saw this funny tweet. Let's run it in a separate window. In here we can see a designer updating their design
+libraries. The tweet if funny but the situation it reffers to is scary. And sad. And true.
+
+Often happens that design work is organized on a low technical level and so there is a lot of waste work. Even is design
+process itself is nicely organized, it's trnaslation into the code often is not optimal at all. Then we do work as the
+video shows.
+
+-->
+
 
 ## Why React?
 {: .why-react }
