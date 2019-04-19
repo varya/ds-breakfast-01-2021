@@ -839,6 +839,7 @@ info.
 </style>
 
 <!--
+
 A styleguide website which documents the components cannot be such a place but only a part of it. Design
 system is not only a library, also a visual language. On the most high level, it is processes and community work.
 All these aspects have to be documented. Obvious respond to such a need is to implement a website. It is also can be
@@ -849,6 +850,7 @@ It can be whatever you as a developer is comfortable with. My own experience was
 nice things about it applicable to building a design system website. Gatsby has a lot of plugins and it is quite easy to
 write your owns. So, it is very flexible and can easily respond your organization needs. I can show you some things I
 implemented with it, but beware there is no limits.
+
 -->
 
 
@@ -876,11 +878,14 @@ Credits: Robert Ngo, [Decoupling Drupal with Gatsby](https://evolvingweb.ca/blog
 
 <!--
 
-Just to put you into context, this is a source structure of Gatsby website I was workinng with. Basically, the website
-had a structure of pages and one of the sections is blog. The content is stored in markdown files in the very same
-repository as Gatsby configuration and processing code. Gatsby does not dictate the source to be in markdown, on the
-contrary, thanks to its flexibility it can be whatever database or whatever file format. But for a quick start, it was
-super easy for me to have it in markdown.
+Just to put you into context, this is a schema of how Gatsby processes data. It's very approximate since Gatsby is very
+flexible. But the main thing here is that you can provide different sources in whatever formats. It can be data from CMS
+or data from markdown files on the file system, or data grabbed from third party services. Gatsby combines this all
+together and at the website you can have an access to it via GraphQL. Out of this data, Gatsby builds a static website.
+Again, as a developer you can 100% control how this build happens.
+
+In the case I am describing, the website was built based on markdown. It does not mean that this is a final version of
+it. But for a developer, it was quite easy option to start with.
 
 -->
 
@@ -926,12 +931,18 @@ content/
 
 <!--
 
-TODO: describe the structure
+This is a source structure of Gatsby website I was workinng with. Basically, the website
+had a structure of pages and one of the sections is blog. You can see that the pages and blog posts are stored in
+folders where there are markdown files. Once built, it goes onto the website as corresponding web pages.
 
-You do not see anything about components here because the styleguides of all the mentioned libraries are hosted on
-separate servers and domains. But this website has links to them, and so naavigation goes smooth for a user. Again,
-technically nothing prevents you from displaying the components and their documentation right here. It is just a matter
-of time and resources you have.
+The structure I am showing here is not something I recommend for every design system to have. It is just an example of a
+very simple website. When developing real design system website, every company should set up their own custom
+structure.
+
+Design system is a service and it should serve. Meaning, the website has to be designed to solve the problems your
+organization has. Depending on what is your focus, the website structure would be one or another. I would recommend
+first to make a user research and provide the design by the gotten results.
+
 -->
 
 
@@ -945,6 +956,13 @@ of time and resources you have.
   width: 250px;
 }
 </style>
+
+<!--
+
+On the static website, you can display texts and images. This is already a good tool for providing the information to
+the people. But let's see if we can do a bit more.
+
+-->
 
 
 ## React components in texts
@@ -1170,6 +1188,28 @@ people to communicate. They can see whom to ask about specific things.
 
 </style>
 
+<!--
+
+The contribution usually starts from a small thing like fixing a typo. But once people realize that they can easily
+operate the tools, they get no limits. And this helps us to solve the problems we are solving. Which I believe is rarely
+something technical but most often people problems.
+
+By providing a place which is single point of truth for a design system, we can connect people. We can help them to
+start a dialog and to collaborate.
+
+One of the tools for such people interaction would be blogging.
+
+As a design system representatives, we can ourselves provide a lot of information in blog format. For example,
+announcements of what has been implemented. We can also speak about the future describing plans and strategies. Blogging
+is less strict format, it makes people much comfortable to give the feedback. So, such plans can be altered by this
+feedback. Here the in-house design and development community is already involved.
+
+They can also themselves write posts into such a blog. As long as everyone within the organization has access to the
+design systems website repository, they can write they own markdown texts and create pull requests with the new content.
+
+-->
+
+
 ## Cherish in-house blogging
 {: .sources }
 
@@ -1336,7 +1376,7 @@ barriers, then it's definitely a solution to go.
 <div class="double" markdown="1">
 
 Make your design system website a place where all the info can be found at any time.<br/>
-*Display markdown from libraries, tools and related repositories on the website pages.*
+<b>Display markdown from libraries, tools and related repositories on the website pages.</b>
 
 ![](pictures/icons/office-set/business-affiliate-network.svg){: .svg .connection }
 
@@ -1353,7 +1393,9 @@ Make your design system website a place where all the info can be found at any t
 <!--
 The design system website as "single point of truth". Design system itself is single point of truth, so should be the
 website about it. All the information has to be gathered together, it also smooths the learning curve. Technically you
-can install the libraries packages as dependencies and import their markdown docs into website pages. TODO: refer to
+can install the libraries packages as dependencies and import their markdown docs into website pages.
+
+TODO: refer to
 remark plugin for importing.
 -->
 
@@ -1371,8 +1413,8 @@ remark plugin for importing.
 
 <!--
 
-Icon:
-<div>Icons made by <a href="https://www.freepik.com/" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" 		    title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" 		    title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>
+And let's go even further to see what we as developers can offer to make such a design system website unbelievable. Just
+a bunch of ideas.
 
 -->
 
@@ -1408,11 +1450,17 @@ Icon:
 </style>
 
 <!--
-Besides, you can make custom components. They are not from your library but whatever else. Here only your fantacy can
+
+We can make custom components. They are not from your library but whatever else. Here only your fantacy can
 limit you. This way you create interactive documentation. Here are some examples from my experience:
 * Pattern Journey
 * Changelog (but later we did it differently)
 * Cartoon about flow
+
+Such components make plain documentation more interesing to read. We can consider this as entertaining the people. But
+in fact, even if it is a cartoon, it is a very serious thing valid for the business. Such interactive documentation
+solves the problem of information availability. Which means, it serves to connecting people and providing information.
+
 -->
 
 
@@ -1470,6 +1518,12 @@ for the people (one of the most important things in design systes, because it's 
   width: 250px;
 }
 </style>
+
+<!--
+
+
+
+-->
 
 
 ## What is our design system
@@ -1540,6 +1594,8 @@ presented and shape your design system up to the needs of your company and proje
 ## Thank you
 
 Icons used
+
+<div>Icons made by <a href="https://www.freepik.com/" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" 		    title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" 		    title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>
 
 <div>Icons made by <a href="https://creativemarket.com/eucalyp" title="Eucalyp">Eucalyp</a> from <a href="https://www.flaticon.com/" 		    title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" 		    title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>
 
