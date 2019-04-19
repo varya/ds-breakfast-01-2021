@@ -595,29 +595,6 @@ specific needs but I give you one example.
 -->
 
 
-## Visual regression tests
-{: .vr-tests }
-
-![](pictures/spot-difference.png)
-
-<style>
-.vr-tests {
-  text-align: center;
-}
-</style>
-
-<!--
-
-For example, you can have
-visual regression tests for your components quite nicely and without much pain.
-
-This picture I often show to illustrate what sometimes ouw job looks like when not having visual regression tests.
-Indeed, sometimes when providing changes we do need to check very carefuly what else has changed. It might be
-time-consuming, not creative or interesting thing at all, and very inefficient.
-
--->
-
-
 ## This is CSS
 {: .no-title .this-is-css }
 
@@ -634,9 +611,34 @@ time-consuming, not creative or interesting thing at all, and very inefficient.
 
 <!--
 
-At the same time, this is something we cannot skip at all because CSS does bring us surprises like in the picture.
+Everything depends on the problem we are trying to solve. This picture is about CSS, there are dozens of them in the
+internet. Yeah, CSS can bring us such surprises.
 Editting something we can break the things in some other place. So, its is much recommended to have some automated
 checkings and run them regularly. This is what visual regression tests are meant to serve.
+
+-->
+
+
+## Visual regression tests
+{: .vr-tests }
+
+![](pictures/spot-difference.png)
+
+<style>
+.vr-tests {
+  text-align: center;
+}
+</style>
+
+<!--
+
+This picture I often show to illustrate what sometimes ouw job looks like when not having visual regression tests.
+Indeed, sometimes when providing changes we do need to check very carefuly what else has changed. It might be
+time-consuming, not creative or interesting thing at all, and very inefficient.
+
+But thanks to the existing tooling, we can have
+visual regression tests for your components quite nicely and without much pain.
+
 
 -->
 
@@ -674,6 +676,14 @@ not only about visual tests. If we generalize the idea, we can think about using
   width: 250px;
 }
 </style>
+
+<!--
+
+These ideas were still within the paradigm that the design system is somehing like a library. But as I said in the
+begining, there are much more aspects of it. Let's see in wider perspective what are the design systems and what we can
+implement for them.
+
+-->
 
 
 ## What is it for me?
@@ -1530,6 +1540,8 @@ presented and shape your design system up to the needs of your company and proje
 ## Thank you
 
 Icons used
+
+<div>Icons made by <a href="https://creativemarket.com/eucalyp" title="Eucalyp">Eucalyp</a> from <a href="https://www.flaticon.com/" 		    title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" 		    title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>
 
 <div>Icons made by <a href="https://www.freepik.com/" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" 		    title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" 		    title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>
 
