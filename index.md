@@ -752,17 +752,17 @@ save.
   height: 250px;
   text-align: center;
   margin-top: 275px;
-  padding-top
+  padding-top: 1.5em;
 }
 
 .connecting-people h3 {
   font-family: "Graphik Medium";
   color: black;
-  font-size: 60px;
+  font-size: 70px;
 }
 
 .connecting-people h4 {
-  font-size: 40px;
+  font-size: 50px;
   margin-top: -0.5em;
 }
 
