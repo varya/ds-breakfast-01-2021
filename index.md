@@ -702,29 +702,73 @@ not only about visual tests. If we generalize the idea, we can think about using
 </div>
 
 <!--
-<div>Icons made by <a href="https://creativemarket.com/eucalyp" title="Eucalyp">Eucalyp</a> from <a href="https://www.flaticon.com/" 		    title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" 		    title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>
--->
-
-<!--
-
-Now, let's come back to the idea that a design system is not only the library of components. Having a generated
-styleguide is nice but most likely we will need something more.
 
 As a developer using a design system, I would like to have access to release notes, maybe some general documentation
 about the system, not only about components separately.
+
 As a designer, I also want to be involved, and have not so much tenhnical but design-focused information.
+
 As a project manager or owner, I need shrinked prepresentation but more information about the upcoming content in the
 design system, their roadmap and such plans.
-And all together we would like to have soemthing which helps us as multidisciplinary team.
+
+And let's keep in mind that there are also business levels. People there would like to have a larger scale picture,
+maybe even with numbers of how much we earn or
+save.
+
+-->
+
+
+## Design systems - connecting people
+{: .no-title .connecting-people }
+
+![](pictures/nokia.jpg){: .cover }
+
+<div class="slogan" markdown="1">
+
+### Design systems
+#### Connecting People
+
+</div>
+
+<style>
+
+.connecting-people .slide__content {
+  text-align: center;
+}
+
+.connecting-people .slogan {
+  background-color: white;
+  width: 820px;
+  height: 250px;
+  text-align: center;
+  margin-top: 275px;
+  padding-top
+}
+
+.connecting-people h3 {
+  font-family: "Graphik Medium";
+  color: black;
+  font-size: 60px;
+}
+
+.connecting-people h4 {
+  font-size: 40px;
+  margin-top: -0.5em;
+}
+
+</style>
+
+<!--
+
+All together we would like to have something which helps us as a multidisciplinary team.
 If there are several teams as usually happens in large orhanizations, we need an environment to collaborate more
 effectively.
-And as a business person, I would like to have a larger scale picture, maybe even with numbers of how much we earn or
-save.
 
 So, the role of a design system is to connect all those people and create environment for efficient collaboration.
 Design system itself is "Single Point of Thurth", a place, a tool a thing which communicates you how to build and
 maintain the products. This single point of truth needs proper representation, something real, from where we get the
 info.
+
 -->
 
 
