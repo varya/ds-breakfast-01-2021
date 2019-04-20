@@ -1612,22 +1612,88 @@ with my colleagues on existing design system. Usign similar methods, you can dev
 presented and shape your design system up to the needs of your company and projects.
 -->
 
+
 ## Thank you
+{: .thanks }
 
-Icons used
+![](pictures/me.jpg){: .photo }
 
-<div>Icons made by <a href="https://www.freepik.com/" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" 		    title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" 		    title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>
+### A Practical Guide TO BUILDING YOUR Design System Infrastructure
 
-<div>Icons made by <a href="https://creativemarket.com/eucalyp" title="Eucalyp">Eucalyp</a> from <a href="https://www.flaticon.com/" 		    title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" 		    title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>
+### [Slides: varya.me/react-finland-2019](http://varya.me/react-finland-2019/)
+{: .slides }
 
-<div>Icons made by <a href="https://www.freepik.com/" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" 		    title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" 		    title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>
+#### by Varya Stepanova
+* [@varya_en](https://twitter.com/varya_en){: .twitter }
+* [varya.me](http://varya.me){: .web }
+* [mail@varya.me](mailto:mail@varya.me)
+{: .contacts }
 
-<div>Icons made by <a href="https://www.freepik.com/" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" 		    title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" 		    title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>
 
-<div>Icons made by <a href="https://www.flaticon.com/authors/eucalyp" title="Eucalyp">Eucalyp</a> from <a href="https://www.flaticon.com/" 		    title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" 		    title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>
+#### Credits
+{: .credits__title }
+This pressentation used icons made by [Freepik](https://www.freepik.com/){: title="Freepik" } and
+[Eucalyp](https://creativemarket.com/eucalyp){: title="Eucalyp" } from [www.flaticon.com](https://www.flaticon.com/){: title="Flaticon" }.
+They are licensed by
+[CC 3.0 BY](http://creativecommons.org/licenses/by/3.0/){: title="Creative Commons BY 3.0"}.
+{: .credits }
 
-<div>Icons made by <a href="https://www.flaticon.com/authors/eucalyp" title="Eucalyp">Eucalyp</a> from <a href="https://www.flaticon.com/" 		    title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" 		    title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>
+<style>
 
-<div>Icons made by <a href="https://www.flaticon.com/authors/eucalyp" title="Eucalyp">Eucalyp</a> from <a href="https://www.flaticon.com/" 		    title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" 		    title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>
+.thanks .credits,
+.thanks .credits__title {
+  font-size: 0.5em;
+}
 
-<div>Icons made by <a href="http://www.freepik.com/" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" 		    title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" 		    title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>
+.thanks h3 {
+  font-size: 28px;
+  margin-bottom: 0.5em;
+  margin-top: 1em;
+  line-height: 1.25em;
+  font-family: "Graphik Light";
+}
+
+.thanks .slides,
+.thanks .slides a {
+  color: #ca4e1f;
+  font-family: "Graphik Light";
+  text-transform: none;
+}
+
+.thanks .photo {
+  float: left;
+  width: 150px;
+  margin-top: 1em;
+  margin-bottom: 8em;
+  margin-right: 1em;
+  border-radius: 50%;
+}
+
+.thanks .contacts {
+  line-height: 1;
+  font-size: 0.8em;
+}
+.thanks .contacts li:before {
+  content: '';
+}
+
+.thanks .twitter
+{
+  text-decoration: none;
+  color: currentColor;
+  background: none;
+  border-bottom: 0;
+}
+
+.thanks .twitter::before
+{
+  content: "";
+  display: inline-block;
+  width: 1.5em;
+  height: 1.5em;
+  background-image:url('pictures/twitter-logo.png');
+  background-size: cover;
+  margin-right: 0.5em;
+  margin-bottom: -0.5em;
+}
+</style>
