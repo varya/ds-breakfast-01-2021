@@ -186,10 +186,10 @@ setTimeout(function() { conveyor.parentNode.appendChild(conveyor2) }, 14800);
 
 <!--
 
-Hello. Let's thank Andrey for a very comprehensive introduction to the design systems and explaning their value. My name
+Hello. Let's thank Andrey for his comprehensive introduction to the design systems and explaning their value. My name
 is Varya and I am going to continue with the same topic. Since we are here at the React conference, I would
 like to cover how we could apply React or even more generally speaking JavaScript to building design systems, providing
-tooling for them, creating supplementary tools and measuring their success.
+supplementary tools for them and measuring their success.
 
 -->
 
@@ -275,7 +275,7 @@ design systems. I started my own consultancy and hope to be a help for the proje
 ## Design Systems <i>[in <b>React</b> world]</i>
 {: .react-world .slide--center }
 
-- …shared practises
+- …shared practices
 - …tools
 - …processes
 - …community
@@ -1511,10 +1511,12 @@ and represent it in a <span class="friendly">friendly interface</span>!
 </style>
 
 <!--
+
 Similarly, we can get changelogs of the libraries. In GitHub they are stored as static pieces of text which is not super
 convinient when our fellow developers want to upgrade through many versions. We can improve GitHub flow and based on the
 extracted data make some kind of interactive changelog. This again smooths the learning curve and makes things easier
 for the people (one of the most important things in design systes, because it's a service!).
+
 -->
 
 
