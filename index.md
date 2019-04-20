@@ -453,28 +453,38 @@ let's have a closer look.
 -->
 
 
-## React living styleguides
-{: .living-styleguides }
+## Living style guides
+{: .living-styleguides .slide--center }
 
-![](pictures/logo/styleguidist.png){: .styleguidist }<br/>
-![](pictures/logo/storybook.svg){: .storybook }<br/>
-<i class="whatever next">💁</i>
+![](pictures/logo/styleguidist.png){: .styleguidist }
+![](pictures/logo/storybook.svg){: .storybook }
+<i class="whatever">💁</i>
+
+<b class="next">Only for React libraries or..?</b>
 
 <style>
 
-.living-styleguides {
+.living-styleguides .slide__content {
   text-align: center;
 }
 
 .living-styleguides .styleguidist,
-.living-styleguides .storybook {
+.living-styleguides .storybook,
+.living-styleguides .whatever {
   width: 230px;
+  margin: 25px;
+}
+
+.living-styleguides .styleguidist {
+  margin-bottom: -1.25em;
 }
 
 .living-styleguides .whatever {
   display: inline-block;
   font-size: 120px;
+  width: 150px;
   font-style: normal;
+  line-height: 1em;
 }
 
 </style>
