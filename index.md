@@ -1590,6 +1590,17 @@ and represent it on the weebsite as a chart component. TODO: Give examples.
 -->
 
 ## Design systems as a service
+{: .slide--shout .ds-service }
+
+![](pictures/icons/design-thinking/brainstorm.svg){: .svg .image }
+
+<style>
+
+.ds-service h2 {
+  color: black;
+}
+
+</style>
 
 <!--
 Design systems are very new concept, so shape it to your own project. Use design thinking and user centred design
