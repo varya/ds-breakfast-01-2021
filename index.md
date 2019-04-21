@@ -985,7 +985,7 @@ first to make a user research and provide the design by the gotten results.
 
 
 ## Little bit more
-{: .little-bit-more .slide--shout .slide--highlighted }
+{: .little-bit-more .slide--shout .slide--primary-light }
 
 ![](pictures/icons/design-thinking/graphic-design-5.svg){: .svg .image }
 
