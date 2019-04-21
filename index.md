@@ -100,6 +100,7 @@ setTimeout(function() { conveyor.parentNode.appendChild(conveyor2) }, 14800);
 
 #Cover h2 .guide {
   display: block;
+  color: #38bcc2;
 }
 
 #Cover h2 .building {
@@ -108,6 +109,10 @@ setTimeout(function() { conveyor.parentNode.appendChild(conveyor2) }, 14800);
   display: block;
   text-transform: uppercase;
   margin-top: 0.25em;
+}
+
+#Cover h2 .ds-infrastructure {
+  color: #ca4e1f;
 }
 
 #Cover .conveyor {
