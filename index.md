@@ -268,8 +268,8 @@ Design systems: production and governance,<br/>pattern libraries, style guides, 
 
 <!--
 
-First, a few words about myself. Design Systems has been my major focus even before the buzzword appeared. I have over
-10 years of experience in frontend development, mostly doing the things related to the components on the web. Back then
+First, a few words about myself. Design Systems has been my major focus even before the buzzword appeared. I have nearly
+15 years of experience in frontend development, mostly doing the things related to the components on the web. Back then
 it was CSS and JavaScript technologies for component production, later styleguides and pattern libraries, and nowadays
 finally design systems. I worked on technical aspects of design systems in several projects and also did a lot of
 oranizational work, technical evangelism and design system leadership. At the moment, I am self-employed expert in
@@ -383,15 +383,10 @@ experience, I would say that a design system is
 
 Even though the components were only mentioned in the beginning, we can apply technologies to all of these aspects of
 design systems.
-In the following talk I will show examples of applying React, Gatsby and some other JavaScript buzzwords to a
-design system. And it should help even non-React projects.
-
-I would like to underline this. Even if there is nothing of React in some design system, it still can help.
-For example, some companies stay with pure CSS/HTML libraries. But they also take advantage of the fancy
-approaches from the conferences. And I am going to show this by examples.
+In this presentation I will share some ideas how we can use React and its ecosystem to help design systems on all the
+levels.
 
 -->
-
 
 
 ## Design system at <b>Elisa</b>
@@ -403,12 +398,12 @@ approaches from the conferences. And I am going to show this by examples.
     title="Elisa"
     data="http://static.elisa.fi/components/pattern-library/6.3.0/release/images/elisa-logo.svg#{$modifiers}"></object>
 
-* Great design community
-* World-class front-end teams
-* UI kit
 * Library of CSS components
 * Libraries of React components
+* UI kit
 * Shared tools and practices
+* Great design community
+* World-class front-end teams
 
 <style>
 
