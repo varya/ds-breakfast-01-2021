@@ -808,6 +808,18 @@ info.
 -->
 
 
+## Single point of truth
+{: .single-point .slide--shout .slide--highlighted }
+
+![](pictures/icons/user-experience/007-validation.svg){: .svg .image }
+
+<style>
+.single-point .image {
+  width: 250px;
+}
+</style>
+
+
 ## Design system website
 {: .ds-website .slide--center }
 
