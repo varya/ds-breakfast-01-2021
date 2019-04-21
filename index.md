@@ -272,6 +272,30 @@ design systems. I started my own consultancy and hope to be a help for the proje
 
 -->
 
+## What is design systems?
+{: .what-is-ds .slide--shout .slide--highlighted }
+
+![](pictures/icons/web-design/045-diamond.svg){: .svg .image }
+
+<style>
+.what-is-ds .image {
+  width: 250px;
+}
+</style>
+
+<!--
+
+Now, let's define once again what design systems are.
+
+In the context of React as technology, ecosystem and community, design systems are often mentioned as high-level
+component libraries. This is indeed a huge aspect of them but a solid design system is never only a library.
+
+Of course, many companies start from library and later have a very strong technical aspect of that. But sooner or later
+we find out that design system is much more.
+
+-->
+
+
 ## Design Systems <i>[in <b>React</b> world]</i>
 {: .react-world .slide--center }
 
@@ -338,14 +362,6 @@ design systems. I started my own consultancy and hope to be a help for the proje
 </style>
 
 <!--
-
-Now, let's define once again what design systems are.
-
-In the context of React as technology, ecosystem and community, design systems are often mentioned as high-level
-component libraries. This is indeed a huge aspect of them but a solid design system is never only a library.
-
-Of course, many companies start from library and later have a very strong technical aspect of that. But sooner or later
-we find out that design system is much more.
 
 As it is yet evolving concept, our understanding of it is changing, so there is no definition. But speaking from
 experience, I would say that a design system is
