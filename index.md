@@ -522,6 +522,56 @@ But it is possible to use these tools also for plain HTML/CSS libraries as well?
 -->
 
 
+## How to document?
+{: .documenting }
+
+<div class="double" markdown="1">
+
+#### brand-button.scss
+
+```
+// Brand button
+//
+// markup:
+// <button
+//   class="brand-button">
+//     Click here!
+// </button>
+```
+{: .code }
+
+
+#### BrandButton.md
+
+    # Brand button
+    ```
+    <button
+      className="brand-button">
+        Click here!
+    </button>
+    ```
+{: .code }
+
+</div>
+
+<style>
+
+.documenting .code {
+  font-size: 0.8em;
+}
+
+</style>
+
+<!--
+
+What we need to enjoy Styleguidist or Storybook? We should have our code snippets in a special format. It is in markdown
+for Styleguidist and in JavaScript for Storybook.
+With our plain HTML/CSS library we usually also have similar documentation for components but maybe in different
+formats. At Elisa, we had these snippets as comments in CSS code and there was a custom tool to parse those comments.
+
+-->
+
+
 ## React for non-React
 {: .slide--center .react4non-react }
 
@@ -551,11 +601,6 @@ But it is possible to use these tools also for plain HTML/CSS libraries as well?
 </style>
 
 <!--
-
-What we need to enjoy Styleguidist or Storybook? We should have our code snippets in a special format. It is in markdown
-for Styleguidist and in JavaScript for Storybook.
-With our plain HTML/CSS library we usually also have similar documentation for components but maybe in different
-formats. At Elisa, we had these snippets as comments in CSS code and there was a custom tool to parse those comments.
 
 Then, if we want this documentation in React-friendly format, we can just translate it with some script. So, these
 markdown files for Styleguidist or stories for Storybook can be generated automatically. And after that, we simply run
