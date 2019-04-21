@@ -1052,21 +1052,21 @@ first to make a user research and provide the design by the gotten results.
 -->
 
 
-## Little bit more
-{: .little-bit-more .slide--shout .slide--primary-light }
+## Use your superpowers
+{: .superpowers .slide--shout .slide--primary }
 
-![](pictures/icons/design-thinking/graphic-design-5.svg){: .svg .image }
+![](pictures/icons/superhero/003-strong.svg){: .svg .image }
 
 <style>
-.little-bit-more .image {
-  width: 250px;
+.superpowers .image {
+  width: 200px;
 }
 </style>
 
 <!--
 
-On the static website, you can display texts and images. This is already a good tool for providing the information to
-the people. But let's see if we can do a bit more.
+And let's go even further to see what we as developers can offer to make such a design system website unbelievable. Just
+a bunch of ideas.
 
 -->
 
@@ -1122,6 +1122,148 @@ still can provide generic React interface for them, similar to how it was done f
 This will simplify writing the documentation and also smoothly teach non-React people how beuatiful React is.
 Constrantly, they shift their mind from HTML snippets to React tags, and this will help with adopting the technology all
 over the company, if you need this.
+
+-->
+
+
+## Custom React components
+{: .custom-react .slide--center }
+
+![](pictures/icons/design-thinking/sketchbook.svg){: .svg .image }
+
+* Interactive schemas
+* Adjustable docs
+* Cartoons
+* <s>Entertainers</s> Problem solvers
+{: .list }
+
+<style>
+
+.custom-react .image {
+  position: fixed;
+  top: 50%;
+  left: 25%;
+  width: 200px;
+  margin-top: -100px;
+  margin-left: -50px;
+}
+
+.custom-react .list {
+  position: relative;
+  margin-left: 50%;
+  margin-top: 4em;
+}
+
+</style>
+
+<!--
+
+We can make custom components. They are not from your library but whatever else. Here only your fantacy can
+limit you. This way you create interactive documentation. Here are some examples from my experience:
+* Pattern Journey
+* Changelog (but later we did it differently)
+* Cartoon about flow
+
+Such components make plain documentation more interesing to read. We can consider this as entertaining the people. But
+in fact, even if it is a cartoon, it is a very serious thing valid for the business. Such interactive documentation
+solves the problem of information availability. Which means, it serves to connecting people and providing information.
+
+-->
+
+
+## Interactive changelog?
+{: .interactive-changelog .slide--center }
+
+![](pictures/icons/user-experience/010-rocket.svg){: .svg .image }
+
+Get <span class="plain">plain data</span> from GitHub<br/> 
+and represent it in a <span class="friendly">friendly interface</span>!
+{: .idea }
+
+<style>
+
+.interactive-changelog .slide__content {
+  text-align: center;
+}
+
+.interactive-changelog .image {
+  width: 200px;
+}
+
+.interactive-changelog .idea {
+  font-size: 1.25em;
+}
+
+.interactive-changelog .plain {
+  color: grey;
+  font-family: 'Graphik Medium';
+}
+
+.interactive-changelog .friendly {
+  background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);   -webkit-background-clip: text;
+  color: transparent;
+  font-family: 'Graphik Medium';
+}
+
+</style>
+
+<!--
+
+Similarly, we can get changelogs of the libraries. In GitHub they are stored as static pieces of text which is not super
+convinient when our fellow developers want to upgrade through many versions. We can improve GitHub flow and based on the
+extracted data make some kind of interactive changelog. This again smooths the learning curve and makes things easier
+for the people (one of the most important things in design systes, because it's a service!).
+
+-->
+
+
+## One single point of truth
+{: .deps-info }
+
+### Extract info from packages and repos
+
+<div class="double" markdown="1">
+
+Make your design system website a place where all the info can be found at any time.<br/>
+<b>Display markdown from libraries, tools and related repositories on the website pages.</b>
+
+![](pictures/icons/office-set/business-affiliate-network.svg){: .svg .connection }
+
+</div>
+
+<style>
+
+.deps-info .connection {
+  width: 300px;
+}
+
+</style>
+
+<!--
+The design system website as "single point of truth". Design system itself is single point of truth, so should be the
+website about it. All the information has to be gathered together, it also smooths the learning curve. Technically you
+can install the libraries packages as dependencies and import their markdown docs into website pages.
+
+TODO: refer to
+remark plugin for importing.
+-->
+
+
+## Little bit more
+{: .little-bit-more .slide--shout .slide--primary-light }
+
+![](pictures/icons/design-thinking/graphic-design-5.svg){: .svg .image }
+
+<style>
+.little-bit-more .image {
+  width: 250px;
+}
+</style>
+
+<!--
+
+On the static website, you can display texts and images. This is already a good tool for providing the information to
+the people. But let's see if we can do a bit more.
 
 -->
 
@@ -1471,148 +1613,6 @@ If makrdown sounds too technical and not so much welcoming, you can use other so
 blogging experience nice with Makrdown. Then, you can offer them faniliar solution, maywe Wordpress? With Gatsby, you
 can get data from there and still represent it on the website. This way, Wordpress acts like CMS. If it destroys
 barriers, then it's definitely a solution to go.
--->
-
-
-## One single point of truth
-{: .deps-info }
-
-### Extract info from packages and repos
-
-<div class="double" markdown="1">
-
-Make your design system website a place where all the info can be found at any time.<br/>
-<b>Display markdown from libraries, tools and related repositories on the website pages.</b>
-
-![](pictures/icons/office-set/business-affiliate-network.svg){: .svg .connection }
-
-</div>
-
-<style>
-
-.deps-info .connection {
-  width: 300px;
-}
-
-</style>
-
-<!--
-The design system website as "single point of truth". Design system itself is single point of truth, so should be the
-website about it. All the information has to be gathered together, it also smooths the learning curve. Technically you
-can install the libraries packages as dependencies and import their markdown docs into website pages.
-
-TODO: refer to
-remark plugin for importing.
--->
-
-
-## Use your superpowers
-{: .superpowers .slide--shout .slide--primary }
-
-![](pictures/icons/superhero/003-strong.svg){: .svg .image }
-
-<style>
-.superpowers .image {
-  width: 200px;
-}
-</style>
-
-<!--
-
-And let's go even further to see what we as developers can offer to make such a design system website unbelievable. Just
-a bunch of ideas.
-
--->
-
-
-## Custom React components
-{: .custom-react .slide--center }
-
-![](pictures/icons/design-thinking/sketchbook.svg){: .svg .image }
-
-* Interactive schemas
-* Adjustable docs
-* Cartoons
-* <s>Entertainers</s> Problem solvers
-{: .list }
-
-<style>
-
-.custom-react .image {
-  position: fixed;
-  top: 50%;
-  left: 25%;
-  width: 200px;
-  margin-top: -100px;
-  margin-left: -50px;
-}
-
-.custom-react .list {
-  position: relative;
-  margin-left: 50%;
-  margin-top: 4em;
-}
-
-</style>
-
-<!--
-
-We can make custom components. They are not from your library but whatever else. Here only your fantacy can
-limit you. This way you create interactive documentation. Here are some examples from my experience:
-* Pattern Journey
-* Changelog (but later we did it differently)
-* Cartoon about flow
-
-Such components make plain documentation more interesing to read. We can consider this as entertaining the people. But
-in fact, even if it is a cartoon, it is a very serious thing valid for the business. Such interactive documentation
-solves the problem of information availability. Which means, it serves to connecting people and providing information.
-
--->
-
-
-## Interactive changelog?
-{: .interactive-changelog .slide--center }
-
-![](pictures/icons/user-experience/010-rocket.svg){: .svg .image }
-
-Get <span class="plain">plain data</span> from GitHub<br/> 
-and represent it in a <span class="friendly">friendly interface</span>!
-{: .idea }
-
-<style>
-
-.interactive-changelog .slide__content {
-  text-align: center;
-}
-
-.interactive-changelog .image {
-  width: 200px;
-}
-
-.interactive-changelog .idea {
-  font-size: 1.25em;
-}
-
-.interactive-changelog .plain {
-  color: grey;
-  font-family: 'Graphik Medium';
-}
-
-.interactive-changelog .friendly {
-  background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);   -webkit-background-clip: text;
-  color: transparent;
-  font-family: 'Graphik Medium';
-}
-
-</style>
-
-<!--
-
-Similarly, we can get changelogs of the libraries. In GitHub they are stored as static pieces of text which is not super
-convinient when our fellow developers want to upgrade through many versions. We can improve GitHub flow and based on the
-extracted data make some kind of interactive changelog. This again smooths the learning curve and makes things easier
-for the people (one of the most important things in design systes, because it's a service!).
-
 -->
 
 
