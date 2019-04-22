@@ -277,6 +277,67 @@ design systems. I started my own consultancy and hope to be a help for the proje
 
 -->
 
+## Design system at <b>Elisa</b>
+{: .elisa }
+
+<object
+    class="ea-logo"
+    type="image/svg+xml"
+    title="Elisa"
+    data="http://static.elisa.fi/components/pattern-library/6.3.0/release/images/elisa-logo.svg#{$modifiers}"></object>
+
+* Library of CSS components
+* Libraries of React components
+* UI kit
+* Shared tools and practices
+* Great design community
+* World-class front-end teams
+
+<style>
+
+.elisa .ea-logo {
+  position: fixed;
+  top: 45px;
+  left: 550px;
+}
+
+.elisa h2 {
+   display: inline-block;
+}
+
+.elisa h2 b {
+  display: none;
+}
+
+.ea-logo {
+  width: 200px;
+  height: 80px;
+  margin: 0 15px -15px;
+}
+
+</style>
+
+<!--
+
+The examples and ideas I will be giving are based on experience of working with design system at Elisa.
+
+For those who are not from Finland or Estonia, Elisa is our local telecommunication operator and content provider with a
+long history and dozens of digital products which are offered under the same brand.
+
+Elisa Design System a huge product which includes several UI libraries. Some libraries are in React but there is also
+a plain HTML/CSS library which still needs a lot of automations and technological support.
+
+Besides, there is a large UI kit in Sketch.
+
+Apart from technical perspecitive,
+design system at Elisa means communication practises, visual guidelines, shared processes and tools.
+
+So, during the last year, I had a lot of opportunities to apply different technologies for supporting this ecosystems,
+making processes smooth and more transparent.
+
+-->
+
+
 ## What is design systems?
 {: .what-is-ds .slide--shout .slide--highlighted }
 
@@ -297,6 +358,48 @@ component libraries. This is indeed a huge aspect of them but a solid design sys
 
 Of course, many companies start from library and later have a very strong technical aspect of that. But sooner or later
 we find out that design system is much more.
+
+-->
+
+
+## What is it for me?
+{: .slide--center }
+
+<div class="triple" markdown="1">
+
+![](pictures/icons/avatar/008-programmer.svg){: .svg .role--developer }
+
+* Release notes
+* Documentation
+{: .next }
+
+![](pictures/icons/design-thinking/idea-1.svg){: .svg .role--designer }
+
+* Tone of voice
+* Design specs
+{: .next }
+
+![](pictures/icons/avatar/001-writer.svg){: .svg .role--manager }
+
+* Strategy
+* Roadmap
+{: .next }
+
+</div>
+
+<!--
+
+As a developer using a design system, I would like to have access to release notes, maybe some general documentation
+about the system, not only about components separately.
+
+As a designer, I also want to be involved, and have not so much tenhnical but design-focused information.
+
+As a project manager or owner, I need shrinked prepresentation but more information about the upcoming content in the
+design system, their roadmap and such plans.
+
+And let's keep in mind that there are also business levels. People there would like to have a larger scale picture,
+maybe even with numbers of how much we earn or
+save.
 
 -->
 
@@ -385,67 +488,6 @@ Even though the components were only mentioned in the beginning, we can apply te
 design systems.
 In this presentation I will share some ideas how we can use React and its ecosystem to help design systems on all the
 levels.
-
--->
-
-
-## Design system at <b>Elisa</b>
-{: .elisa }
-
-<object
-    class="ea-logo"
-    type="image/svg+xml"
-    title="Elisa"
-    data="http://static.elisa.fi/components/pattern-library/6.3.0/release/images/elisa-logo.svg#{$modifiers}"></object>
-
-* Library of CSS components
-* Libraries of React components
-* UI kit
-* Shared tools and practices
-* Great design community
-* World-class front-end teams
-
-<style>
-
-.elisa .ea-logo {
-  position: fixed;
-  top: 45px;
-  left: 550px;
-}
-
-.elisa h2 {
-   display: inline-block;
-}
-
-.elisa h2 b {
-  display: none;
-}
-
-.ea-logo {
-  width: 200px;
-  height: 80px;
-  margin: 0 15px -15px;
-}
-
-</style>
-
-<!--
-
-The examples and ideas I will be giving are based on experience of working with design system at Elisa.
-
-For those who are not from Finland or Estonia, Elisa is our local telecommunication operator and content provider with a
-long history and dozens of digital products which are offered under the same brand.
-
-Elisa Design System a huge product which includes several UI libraries. Some libraries are in React but there is also
-a plain HTML/CSS library which still needs a lot of automations and technological support.
-
-Besides, there is a large UI kit in Sketch.
-
-Apart from technical perspecitive,
-design system at Elisa means communication practises, visual guidelines, shared processes and tools.
-
-So, during the last year, I had a lot of opportunities to apply different technologies for supporting this ecosystems,
-making processes smooth and more transparent.
 
 -->
 
@@ -776,48 +818,6 @@ not only about visual tests. If we generalize the idea, we can think about using
 These ideas were still within the paradigm that the design system is somehing like a library. But as I said in the
 begining, there are much more aspects of it. Let's see in wider perspective what are the design systems and what we can
 implement for them.
-
--->
-
-
-## What is it for me?
-{: .slide--center }
-
-<div class="triple" markdown="1">
-
-![](pictures/icons/avatar/008-programmer.svg){: .svg .role--developer }
-
-* Release notes
-* Documentation
-{: .next }
-
-![](pictures/icons/design-thinking/idea-1.svg){: .svg .role--designer }
-
-* Tone of voice
-* Design specs
-{: .next }
-
-![](pictures/icons/avatar/001-writer.svg){: .svg .role--manager }
-
-* Strategy
-* Roadmap
-{: .next }
-
-</div>
-
-<!--
-
-As a developer using a design system, I would like to have access to release notes, maybe some general documentation
-about the system, not only about components separately.
-
-As a designer, I also want to be involved, and have not so much tenhnical but design-focused information.
-
-As a project manager or owner, I need shrinked prepresentation but more information about the upcoming content in the
-design system, their roadmap and such plans.
-
-And let's keep in mind that there are also business levels. People there would like to have a larger scale picture,
-maybe even with numbers of how much we earn or
-save.
 
 -->
 
