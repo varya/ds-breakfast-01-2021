@@ -807,9 +807,7 @@ visual regression tests for your components quite nicely and without much pain.
 I have a lot of experience with custom set ups. They served the purpose but took much more time to maintain. So, I think
 it is always better to re-use the community work and adopt the common solution.
 
-Both Styleguidist and Storybook have additional plugins for visual regression tests, sometimes more than one. I did not
-check recently if somthing new appeared but usually there is a variety to choose from. In general, it is usually a
-package to unstall and then run a command. That simple.
+Both Styleguidist and Storybook have additional plugins for visual regression tests, sometimes more than one.
 
 Combining this idea with generating documenttaion from custom source, you can take advantage of the plugins even for
 non-React projects.
@@ -885,8 +883,8 @@ them in wider perspective?
 
 <!--
 
-Design systems are meant to enhance the collabiration in a multidisciplinary team. Or the collaboration of many teams
-if we are speaking about larger organization. 
+Design systems are meant to empover the collabiration in a multidisciplinary team. Or the collaboration of many teams
+if we are speaking about larger organization.
 
 So, the role of a design system is to create environment such a collaboration.
 
@@ -906,9 +904,9 @@ So, the role of a design system is to create environment such a collaboration.
 
 <!--
 
-Design system itself is "Single Point of Thurth", a place, a tool a thing which communicates you how to build and
-maintain the products. This single point of truth needs proper representation, something real, from where we get the
-info.
+Design system itself is a "Single Point of Thurth", a place, a tool a thing which communicates you how to build and
+maintain the products. This single point of truth needs proper representation, something real, from where people of
+different specializations get the information they need.
 
 -->
 
@@ -971,13 +969,13 @@ info.
 
 <!--
 
-A styleguide website which documents the components cannot be such a place but only a part of it. Style guide
+A style guide website which documents the components cannot be such a place but only a part of it. Style guide
 communicates how to use existing patterns. But we should also know how to make new patterns, how to provide brand
 changes, what are the design and development processes and so on. There should be a website which contains all this
 information.
 
-At the same time, it's good to automate as much as possible. So, it dictates the technical solution behind the website.
-It can be whatever you as a developer is comfortable with. My own experience was with GatsbyJS.
+At the same time, it's good to take advantange of the technologies. So, it dictates the technical solution behind the website.
+It can be whatever you as a developer are comfortable with. My own experience was with GatsbyJS.
 Gatsby has a lot of plugins and it is quite easy to
 write your owns. So, it is very flexible and can easily respond your organization needs. I can show you some things I
 implemented with it, but beware there is no limits.
