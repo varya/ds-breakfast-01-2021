@@ -193,7 +193,7 @@ setTimeout(function() { conveyor.parentNode.appendChild(conveyor2) }, 14800);
 
 Hello. Let's thank Andrey for his comprehensive introduction to the design systems and explaning their value. My name
 is Varya and I am going to continue with the same topic. Since we are here at the React conference, I would
-like to cover how we could apply React or even more generally speaking JavaScript to building design systems, providing
+like to cover how we could apply React and the complementing technologies, providing
 supplementary tools for them and measuring their success.
 
 -->
@@ -270,9 +270,10 @@ Design systems: production and governance,<br/>pattern libraries, style guides, 
 
 First, a few words about myself. Design Systems has been my major focus even before the buzzword appeared. I have nearly
 15 years of experience in frontend development, mostly doing the things related to the components on the web. Back then
-it was CSS and JavaScript technologies for component production, later styleguides and pattern libraries, and nowadays
+it was component solutions in CSS and JavaScript, later styleguides and pattern libraries, and nowadays
 finally design systems. I worked on technical aspects of design systems in several projects and also did a lot of
-oranizational work, technical evangelism and design system leadership. At the moment, I am self-employed expert in
+team and project management in this field.
+At the moment, I am self-employed expert in
 design systems. I started my own consultancy and hope to be a help for the projects which need it.
 
 -->
@@ -1200,7 +1201,7 @@ solves the problem of information availability. Which means, it serves to connec
 ![](pictures/icons/user-experience/010-rocket.svg){: .svg .image }
 
 Get <span class="plain">plain data</span> from GitHub<br/> 
-and represent it in a <span class="friendly">friendly interface</span>!
+and represent it with a <span class="friendly">friendly interface</span>!
 {: .idea }
 
 <style>
