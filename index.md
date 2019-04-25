@@ -1227,6 +1227,7 @@ and represent it with a <span class="friendly">friendly interface</span>!
   background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);   -webkit-background-clip: text;
   color: transparent;
   font-family: 'Graphik Medium';
+  -webkit-text-stroke: 1px black;
 }
 
 </style>
