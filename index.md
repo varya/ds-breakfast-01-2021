@@ -281,11 +281,7 @@ design systems. I started my own consultancy and hope to be a help for the proje
 ## Design system at <b>Elisa</b>
 {: .elisa }
 
-<object
-    class="ea-logo"
-    type="image/svg+xml"
-    title="Elisa"
-    data="http://static.elisa.fi/components/pattern-library/6.3.0/release/images/elisa-logo.svg#{$modifiers}"></object>
+![](pictures/elisa-logo.svg){: .svg .ea-logo title="Elisa" }
 
 * Library of CSS components
 * Libraries of React components
