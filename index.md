@@ -36,6 +36,17 @@ style: |
     .no-title h2 {
       display: none;
     }
+
+    .slide .relevant-link {
+      font-size: 0.5em;
+      position: absolute;
+      bottom: 25px;
+      margin-bottom: 0.25em;
+    }
+
+    .slide .quadruple {
+      column-count: 4;
+    }
 ---
 
 # <span class="guide">A practical guide</span> <span class="building">to&nbsp;building your</span> <span class="ds-infrastructure">design&nbsp;system&nbsp;infrastructure</span> {#Cover}
@@ -199,10 +210,10 @@ setTimeout(function() { conveyor.parentNode.appendChild(conveyor2) }, 14800);
 
 <!--
 
-Hello. Let's thank Andrey for his comprehensive introduction to the design systems and explaning their value. My name
-is Varya and I am going to continue with the same topic. Since we are here at the React conference, I would
-like to cover how we could apply React and the complementing technologies, providing
-supplementary tools for them and measuring their success.
+Hello. My name is Varya, and my talk is about -- surprise! -- design systems. However, I will keep it very practical. I
+would like to show how we could use our developers' knowledge and ability to code and apply it to the domain of design
+systems. Using certain technologies, we can build not only the interface components but also infrastucture and tools for
+our design system to run.
 
 -->
 
@@ -293,7 +304,7 @@ design systems. I started my own consultancy and hope to be a help for the proje
 
 * Library of CSS components
 * Libraries of React components
-* UI kit
+* UI kit in Sketch
 * Shared tools and practices
 * Great design community
 * World-class front-end teams
@@ -326,8 +337,8 @@ design systems. I started my own consultancy and hope to be a help for the proje
 
 The examples and ideas I will be giving are based on experience of working with design system at Elisa.
 
-For those who are not from Finland or Estonia, Elisa is our local telecommunication operator and content provider with a
-long history and dozens of digital products which are offered under the same brand.
+Elisa is a large telecommunication company and content provider. It operates in Finland and Estonia and offers
+dozens of digital products which are offered under the same brand.
 
 Elisa Design System is a huge product which includes several UI libraries. Some libraries are in React but there is also
 a plain HTML/CSS library which still needs a lot of automations and technological support.
@@ -358,19 +369,15 @@ making processes smooth and more transparent.
 
 Now, let's define once again what design systems are.
 
-In the context of React as technology, ecosystem and community, design systems are often mentioned as high-level
-component libraries. This is indeed a huge aspect of them but a solid design system is never only a library.
-
-Of course, many companies start from library and later have a very strong technical aspect of that. But sooner or later
-we find out that design system is much more.
+Often when speaking about desgin systems, people mean UI libraries. But is it really limited to that?
 
 -->
 
 
 ## What is it for me?
-{: .slide--center }
+{: .slide--center .what-for-me }
 
-<div class="triple" markdown="1">
+<div class="quadruple" markdown="1">
 
 ![](pictures/icons/avatar/008-programmer.svg){: .svg .role--developer }
 
@@ -390,23 +397,44 @@ we find out that design system is much more.
 * Roadmap
 {: .next }
 
+![](pictures/icons/avatar/030-accountant.svg){: .svg .role--business }
+
+* Money spent
+* Money saved
+{: .next }
+
 </div>
+
+See more in the relevant article: [What is a design system? And why it is more than just a library or a style
+guide.](https://varya.me/design-systems/what-is-a-design-system/)
+{: .relevant-link }
+
+<style>
+.what-for-me .slide__content {
+  padding-top: 2.5em;
+}
+.what-for-me li {
+  font-size: 0.75em;
+}
+</style>
 
 <!--
 
 Let's have a look what people of different specializations need from a design system.
 
-As a developer using a design system, I would like to have access to release notes, maybe some general documentation
-about the system, not only about components separately.
+Developers mostly see design systems as libraries. They would like to have documentation for every component, examples of usage and maybe explanation of the implementation details.
+Also, they are interested in general information such as release notes, instructions how to contribute, and so on.
 
-As a designer, I also want to be involved, and have not so much tenhnical but design-focused information.
+Designers also need documentation for every pattern, especially the reasons behind them. They also need to know how to
+create new patterns and so they need related infromation.
 
-As a project manager or owner, I need shrinked prepresentation but more information about the upcoming content in the
-design system, their roadmap and such plans.
+Project managers or owners are interested in the design system's nearest future or, in particular, what new components
+are going to be released and what are the upcoming changes to the existing ones.
 
-And let's keep in mind that there are also business levels. People there would like to have a larger scale picture,
-maybe even with numbers of how much we earn or
-save.
+People on buisness levels of the company
+would like to have a larger scale picture,
+maybe even with numbers of how much design system costs and how much we
+save when using it.
 
 -->
 
@@ -419,6 +447,10 @@ save.
 - …processes
 - …community
 {: .list }
+
+See more in the relevant article: [What is a design system? And why it is more than just a library or a style
+guide.](https://varya.me/design-systems/what-is-a-design-system/)
+{: .relevant-link }
 
 <style>
 
