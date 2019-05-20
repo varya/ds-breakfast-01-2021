@@ -68,6 +68,8 @@ style: |
 
 <b>Varya Stepanova</b>, Design Systems Expert / [varya.me](http://varya.me)
 {: .author }
+@ [Patterns Day](https://patternsday.com/), June 28<sup>th</sup>, 2019. Brighton, England
+{: .event }
 
 <script>
 
@@ -185,6 +187,12 @@ setTimeout(function() { conveyor.parentNode.appendChild(conveyor2) }, 14800);
 #Cover .author {
   margin-top: 275px;
   text-align: right;
+}
+
+#Cover .event {
+  font-size: 0.5em;
+  text-align: right;
+  margin-top: 0;
 }
 
 </style>
@@ -1742,7 +1750,7 @@ presented and shape your design system up to the needs of your company and proje
 
 ### A Practical Guide TO BUILDING YOUR Design System Infrastructure
 
-### [Slides: varya.me/react-finland-2019](http://varya.me/react-finland-2019/)
+### [Slides: varya.me/patterns-day-2019](http://varya.me/patterns-day-2019/)
 {: .slides }
 
 #### by Varya Stepanova
