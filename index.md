@@ -1185,6 +1185,52 @@ over the company, if you need this.
 
 -->
 
+## React components in texts, v2
+{: .react-in-markdown-2 }
+
+<div class="double" markdown="1">
+
+gatsby-config.js
+
+```
+resolve: `gatsby-mdx`,
+options: {
+  globalScope: `
+    <mark class="important">import { MyBrandButton }</mark>
+      <mark class="important">from "./button.js";</mark>
+    <mark class="important">export default { MyBrandButton };</mark>
+  `
+	}
+
+```
+{: .code }
+
+button.mdx
+
+```
+# Documentation for button
+
+Look Ma, here is my button!
+
+<mark class="important"><MyBrandButton /></mark>
+
+Inside some custom text docs :-)
+```
+{: .code }
+
+</div>
+
+<style>
+.react-in-markdown-2 .double {
+  margin-right: -2em;
+  column-rule: 1px solid lightgrey;
+}
+
+.react-in-markdown-2 .code {
+  font-size: 0.75em;
+}
+</style>
+
 
 ## Custom React components
 {: .custom-react .slide--center }
