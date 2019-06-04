@@ -1193,7 +1193,7 @@ over the company, if you need this.
 gatsby-config.js
 
 ```
-resolve: `gatsby-mdx`,
+resolve: <mark>`gatsby-mdx`</mark>,
 options: {
   globalScope: `
     <mark class="important">import { MyBrandButton }</mark>
