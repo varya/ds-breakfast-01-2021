@@ -1803,10 +1803,31 @@ and represent it on the weebsite as a chart component. TODO: Give examples.
 
 ![](pictures/icons/design-thinking/brainstorm.svg){: .svg .image }
 
+<svg class="rainbow" viewBox="0 0 300 300">
+  <defs>
+    <linearGradient id="rainbow" x1="0" x2="0" y1="0" y2="100%" gradientUnits="userSpaceOnUse" >
+      <stop stop-color="#FF5B99" offset="0%"/>
+      <stop stop-color="#FF5447" offset="20%"/>
+      <stop stop-color="#FF7B21" offset="40%"/>
+      <stop stop-color="#EAFC37" offset="60%"/>
+      <stop stop-color="#4FCB6B" offset="80%"/>
+      <stop stop-color="#51F7FE" offset="100%"/> 
+    </linearGradient>
+  </defs>
+</svg>
 <style>
 
 .ds-service h2 {
   color: black;
+}
+
+.ds-service .rainbow {
+  position: absolute;
+}
+
+.ds-service g#brainstorm {
+  fill: url(#rainbow);
+  color: transparent;
 }
 
 </style>
