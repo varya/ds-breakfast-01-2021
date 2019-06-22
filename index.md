@@ -293,7 +293,7 @@ it was component solutions in CSS and JavaScript, later styleguides and pattern 
 finally design systems. I worked on technical aspects of design systems in several projects and also did a lot of
 team and project management in this field.
 At the moment, I am self-employed expert in
-design systems. I started my own consultancy and hope to be a help for the projects which need it.
+design systems.
 
 -->
 
@@ -337,7 +337,7 @@ design systems. I started my own consultancy and hope to be a help for the proje
 
 The examples and ideas I will be giving are based on experience of working with design system at Elisa.
 
-Elisa is a large telecommunication company and content provider. It operates in Finland and Estonia and offers
+Elisa is a large telecommunication company and content provider. It operates in Finland and Estonia and has
 dozens of digital products which are offered under the same brand.
 
 Elisa Design System is a huge product which includes several UI libraries. Some libraries are in React but there is also
@@ -422,19 +422,18 @@ guide.](https://varya.me/design-systems/what-is-a-design-system/)
 
 Let's have a look what people of different specializations need from a design system.
 
-Developers mostly see design systems as libraries. They would like to have documentation for every component, examples of usage and maybe explanation of the implementation details.
+Developers mostly see design systems as libraries. They would like to have documentation for every component, examples
+of usage and maybe explanation of the implementation details.
 Also, they are interested in general information such as release notes, instructions how to contribute, and so on.
 
-Designers also need documentation for every pattern, especially the reasons behind them. They also need to know how to
-create new patterns and so they need related infromation.
+Designers also need documentation for every pattern, especially the reasons behind them. They need to know how to
+create new patterns and so they require related infromation.
 
 Project managers or owners are interested in the design system's nearest future or, in particular, what new components
 are going to be released and what are the upcoming changes to the existing ones.
 
-People on buisness levels of the company
-would like to have a larger scale picture,
-maybe even with numbers of how much design system costs and how much we
-save when using it.
+People on buisness levels of the company would like to have a larger scale picture,
+maybe even with numbers of how much design system costs and how much we save when using it.
 
 -->
 
@@ -544,7 +543,8 @@ levels.
 
 <!--
 
-First, I would like to explain why it's about React. Because indeed the components does not have to be React.
+First, I would like to explain why it's about React. Because indeed the components can be implemented using any other
+framework.
 
 As I said, my experience also was with a plain CSS/HTMl library which seems to be not related to the topic of React. But
 let's have a closer look.
@@ -734,9 +734,9 @@ Why is it all needed and why did I start to speak about that?
 Recently I saw this funny tweet. Let's run it in a separate window. In here we can see a designer updating their design
 libraries. The tweet if funny but the situation it reffers to is scary. And sad. And true.
 
-Often happens that design work is organized on a low technical level and so there is a lot of waste work. Even is design
-process itself is nicely organized, it's trnaslation into the code often is not optimal at all. Then we do work as the
-video shows.
+Oftern happens, that translating design to development is organized on a low technical level and so there is a lot of
+waste work. This is especially noticable if we need to provide a bucnh of small changes across the whole product.
+Then we do work as the video shows.
 
 -->
 
@@ -844,7 +844,9 @@ visual regression tests for your components quite nicely and without much pain.
 I have a lot of experience with custom set ups. They served the purpose but took much more time to maintain. So, I think
 it is always better to re-use the community work and adopt the common solution.
 
-Both Styleguidist and Storybook have additional plugins for visual regression tests, sometimes more than one.
+Both Styleguidist and Storybook have additional plugins for visual regression tests, sometimes more than one. With that
+plugins, the set up is just installing one more npm package. And since the whole interface is already divided into
+isolated components, running the tests are easy.
 
 Combining this idea with generating documenttaion from custom source, you can take advantage of the plugins even for
 non-React projects.
@@ -1177,12 +1179,6 @@ This way you
 can get React components from your library and describe them in a very flexible way on pages. A designer can write a
 text an illustrate it with the component.
 
-Even if your components are not in React but let's say in plain HTML/CSS, you
-still can provide generic React interface for them, similar to how it was done for usign Styleguidist or Storybook.
-This will simplify writing the documentation and also smoothly teach non-React people how beuatiful React is.
-Constrantly, they shift their mind from HTML snippets to React tags, and this will help with adopting the technology all
-over the company, if you need this.
-
 -->
 
 ## React components in texts, v2
@@ -1230,6 +1226,20 @@ Inside some custom text docs :-)
   font-size: 0.75em;
 }
 </style>
+
+<!--
+
+There are different ways to put React components onto the pages. Another one is using MDX, Gatsby has a plugin for this
+as well. This option looks even nicer. We can automatically list all the components from the library and this will make
+them available at our documentaion pages.
+
+Even if your components are not in React but let's say in plain HTML/CSS, you
+still can provide generic React interface for them, similar to how it was done for usign Styleguidist or Storybook.
+This will simplify writing the documentation and also smoothly teach non-React people how beuatiful React is.
+Constrantly, they shift their mind from HTML snippets to React tags, and this will help with adopting the technology all
+over the company, if you need this.
+
+-->
 
 
 ## Custom React components
@@ -1551,7 +1561,7 @@ people to communicate. They can see whom to ask about specific things.
 <!--
 
 The contribution usually starts from a small thing like fixing a typo. But once people realize that they can easily
-operate the tools, they get no limits. And this helps us to solve the problems we are solving. Which I believe is rarely
+operate the tools, they get no limits. And this helps us to solve the problems we are focused on. Which I believe is rarely
 something technical but most often people problems.
 
 By providing a place which is single point of truth for a design system, we can connect people. We can help them to
@@ -1564,7 +1574,7 @@ announcements of what has been implemented. We can also speak about the future d
 is less strict format, it makes people much comfortable to give the feedback. So, such plans can be altered by this
 feedback. Here the in-house design and development community is already involved.
 
-They can also themselves write posts into such a blog. As long as everyone within the organization has access to the
+They can also themselves write posts into such a blog. As long as everyone in the organization has access to the
 design systems website repository, they can write they own markdown texts and create pull requests with the new content.
 
 -->
@@ -1722,8 +1732,8 @@ Offer them <b>Wordpress as a source</b> for your design system website blog.
 <!--
 
 If makrdown sounds too technical and not so much welcoming, you can use other sources. For example, not everyone finds
-blogging experience nice with Makrdown. Then, you can offer them faniliar solution, maywe Wordpress? With Gatsby, you
-can get data from there and still represent it on the website. This way, Wordpress acts like CMS. If it destroys
+blogging experience nice with Makrdown. Then, you can offer them familiar solution, maybe Wordpress? With Gatsby, you
+can get data from there and still represent it on the website. This way, Wordpress acts like a CMS. If it destroys
 barriers, then it's definitely a solution to go.
 -->
 
@@ -1741,7 +1751,7 @@ barriers, then it's definitely a solution to go.
 
 <!--
 
-The design
+Design system can also show the data about itself.
 
 -->
 
@@ -1784,6 +1794,15 @@ The design
 </style>
 
 <!--
+
+This is especially interesting for measuring the impact of design systems. It is another huge topic which we cannot
+fully cover right now. But here is a bunch of ideas for it.
+
+We can crawl the repositories to calculate the usage of components. It works for React componets and for CSS classes.
+Similarly, we analyse dependencies in `package.json` at the projects and so we can learn the versions used. This way,
+we can measure how much our libraries are used. Also, we know our users better, who uses what. When providing changes
+to the libraries, we can contact people who are using specific components.
+
 ## Crawling the repositories to calculate the usage of components
 This is more about measuring the impact of design systems, which is another huge topic. BTW, I am very much in it right
 now and if you would like to have a chat about it, please welcome to speak after the talk or in social networks. But
