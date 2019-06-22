@@ -1306,7 +1306,8 @@ and represent it with a <span class="friendly">friendly interface</span>!
 }
 
 .interactive-changelog .friendly {
-  background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);   -webkit-background-clip: text;
+  background-image: linear-gradient(to right,#f2e6c6,#ca4e1f,#e69445,#75d3d1,#38bcc2,#F2E6C3);
+  -webkit-background-clip: text;
   color: transparent;
   font-family: 'Graphik Medium';
   -webkit-text-stroke: 1px black;
@@ -1803,19 +1804,21 @@ and represent it on the weebsite as a chart component. TODO: Give examples.
 
 ![](pictures/icons/design-thinking/brainstorm.svg){: .svg .image }
 
+<!-- linear-gradient(to right,#f2e6c6,#ca4e1f,#e69445,#75d3d1,#38bcc2,#F2E6C3) -->
+
 <svg class="rainbow" viewBox="0 0 250 250">
   <defs>
     <linearGradient id="rainbow" x1="0" x2="0" y1="0" y2="100%" gradientUnits="userSpaceOnUse" >
-      <stop stop-color="#800080" offset="0%"/>
-      <stop stop-color="#4b0082" offset="15%"/>
-      <stop stop-color="#0000FF" offset="35%"/>
-      <stop stop-color="#008000" offset="50%"/>
-      <stop stop-color="#FFFF00" offset="65%"/>
-      <stop stop-color="#FFA500" offset="85%"/> 
-      <stop stop-color="#FF0000" offset="100%"/> 
+      <stop stop-color="#f2e6c6" offset="0%"/>
+      <stop stop-color="#ca4e1f" offset="20%"/>
+      <stop stop-color="#e69445" offset="40%"/>
+      <stop stop-color="#75d3d1" offset="60%"/>
+      <stop stop-color="#38bcc2" offset="80%"/>
+      <stop stop-color="#F2E6C3" offset="100%"/> 
     </linearGradient>
   </defs>
 </svg>
+
 <style>
 
 .ds-service h2 {
@@ -1829,6 +1832,7 @@ and represent it on the weebsite as a chart component. TODO: Give examples.
 .ds-service g#brainstorm {
   fill: url(#rainbow);
   color: transparent;
+  stroke: #000;
 }
 
 </style>
