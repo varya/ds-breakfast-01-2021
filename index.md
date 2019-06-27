@@ -292,8 +292,7 @@ First, a few words about myself. Design Systems has been my major focus even bef
 it was component solutions in CSS and JavaScript, later styleguides and pattern libraries, and nowadays
 finally design systems. I worked on technical aspects of design systems in several projects and also did a lot of
 team and project management in this field.
-At the moment, I am self-employed expert in
-design systems.
+At the moment, I am self-employed expert in design systems.
 
 -->
 
@@ -846,7 +845,7 @@ it is always better to re-use the community work and adopt the common solution.
 
 Both Styleguidist and Storybook have additional plugins for visual regression tests, sometimes more than one. With that
 plugins, the set up is just installing one more npm package. And since the whole interface is already divided into
-isolated components, running the tests are easy.
+isolated components, running the tests is easy.
 
 Combining this idea with generating documenttaion from custom source, you can take advantage of the plugins even for
 non-React projects.
@@ -1273,6 +1272,8 @@ over the company, if you need this.
 </style>
 
 <!--
+
+TODO: rewrite text
 
 We can alo make custom components. They are not from your library but whatever else. Here only your fantacy can
 limit you. This way you create interactive documentation. Here are some examples from my experience:
