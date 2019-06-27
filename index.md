@@ -1371,10 +1371,10 @@ The process of extracting these data can be automated. So that when a new versio
 -->
 
 
-## Little bit more
+## Do more together
 {: .little-bit-more .slide--shout .slide--primary-light }
 
-![](pictures/icons/design-thinking/graphic-design-5.svg){: .svg .image }
+![](pictures/icons/teamwork/005-group.svg){: .svg .image }
 
 <style>
 .little-bit-more .image {
