@@ -373,70 +373,6 @@ Often when speaking about desgin systems, people mean UI libraries. But is it re
 -->
 
 
-## What is it for me?
-{: .slide--center .what-for-me }
-
-<div class="quadruple" markdown="1">
-
-![](pictures/icons/avatar/008-programmer.svg){: .svg .role--developer }
-
-* Release notes
-* Documentation
-{: .next }
-
-![](pictures/icons/design-thinking/idea-1.svg){: .svg .role--designer }
-
-* Tone of voice
-* Design specs
-{: .next }
-
-![](pictures/icons/avatar/001-writer.svg){: .svg .role--manager }
-
-* Strategy
-* Roadmap
-{: .next }
-
-![](pictures/icons/avatar/030-accountant.svg){: .svg .role--business }
-
-* Money spent
-* Money saved
-{: .next }
-
-</div>
-
-See more in the relevant article: [What is a design system? And why it is more than just a library or a style
-guide.](https://varya.me/design-systems/what-is-a-design-system/)
-{: .relevant-link }
-
-<style>
-.what-for-me .slide__content {
-  padding-top: 2.5em;
-}
-.what-for-me li {
-  font-size: 0.75em;
-}
-</style>
-
-<!--
-
-Let's have a look what people of different specializations need from a design system.
-
-Developers mostly see design systems as libraries. They would like to have documentation for every component, examples
-of usage and maybe explanation of the implementation details.
-Also, they are interested in general information such as release notes, instructions how to contribute, and so on.
-
-Designers also need documentation for every pattern, especially the reasons behind them. They need to know how to
-create new patterns and so they require related infromation.
-
-Project managers or owners are interested in the design system's nearest future or, in particular, what new components
-are going to be released and what are the upcoming changes to the existing ones.
-
-People on buisness levels of the company would like to have a larger scale picture,
-maybe even with numbers of how much design system costs and how much we save when using it.
-
--->
-
-
 ## Design Systems <i>[in <b>React</b> world]</i>
 {: .react-world .slide--center }
 
@@ -945,6 +881,70 @@ So, the role of a design system is to create environment such a collaboration.
 Design system itself is a "Single Point of Thurth", a place, a tool a thing which communicates you how to build and
 maintain the products. This single point of truth needs proper representation, something real, from where people of
 different specializations get the information they need.
+
+-->
+
+
+## What is it for me?
+{: .slide--center .what-for-me }
+
+<div class="quadruple" markdown="1">
+
+![](pictures/icons/avatar/008-programmer.svg){: .svg .role--developer }
+
+* Release notes
+* Documentation
+{: .next }
+
+![](pictures/icons/design-thinking/idea-1.svg){: .svg .role--designer }
+
+* Tone of voice
+* Design specs
+{: .next }
+
+![](pictures/icons/avatar/001-writer.svg){: .svg .role--manager }
+
+* Strategy
+* Roadmap
+{: .next }
+
+![](pictures/icons/avatar/030-accountant.svg){: .svg .role--business }
+
+* Money spent
+* Money saved
+{: .next }
+
+</div>
+
+See more in the relevant article: [What is a design system? And why it is more than just a library or a style
+guide.](https://varya.me/design-systems/what-is-a-design-system/)
+{: .relevant-link }
+
+<style>
+.what-for-me .slide__content {
+  padding-top: 2.5em;
+}
+.what-for-me li {
+  font-size: 0.75em;
+}
+</style>
+
+<!--
+
+Let's have a look what people of different specializations need from a design system.
+
+Developers mostly see design systems as libraries. They would like to have documentation for every component, examples
+of usage and maybe explanation of the implementation details.
+Also, they are interested in general information such as release notes, instructions how to contribute, and so on.
+
+Designers also need documentation for every pattern, especially the reasons behind them. They need to know how to
+create new patterns and so they require related infromation.
+
+Project managers or owners are interested in the design system's nearest future or, in particular, what new components
+are going to be released and what are the upcoming changes to the existing ones.
+
+People on buisness levels of the company would like to have a larger scale picture,
+maybe even with numbers of how much design system costs and how much we save when using it.
 
 -->
 
