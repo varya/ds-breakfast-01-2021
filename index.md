@@ -373,7 +373,7 @@ Often when speaking about desgin systems, people mean UI libraries. But is it re
 -->
 
 
-## Design Systems <i>[in <b>React</b> world]</i>
+## Design Systems
 {: .react-world .slide--center }
 
 - …shared practices
@@ -387,18 +387,6 @@ guide.](https://varya.me/design-systems/what-is-a-design-system/)
 {: .relevant-link }
 
 <style>
-
-.react-world h2 i {
-  color: #000;
-  font-style: normal;
-  text-transform: none;
-}
-
-.react-world h2 i b {
-  color: #61DAFB;
-  font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica
-  Neue,sans-serif;
-}
 
 .react-world .svg {
   margin: 50px 100px;
