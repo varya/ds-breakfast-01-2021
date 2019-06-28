@@ -533,6 +533,7 @@ component technology? Is it possible to still use these tools?
 <div class="double" markdown="1">
 
 #### brand-button.scss
+{: .shade }
 
 ```
 // Brand button
@@ -543,7 +544,7 @@ component technology? Is it possible to still use these tools?
 //     Click here!
 // </button>
 ```
-{: .code }
+{: .code .shade }
 
 
 #### BrandButton.md
@@ -565,6 +566,10 @@ component technology? Is it possible to still use these tools?
   font-size: 0.8em;
 }
 
+.documenting .shade {
+  color: #999;
+}
+
 </style>
 
 <!--
@@ -575,6 +580,44 @@ for Styleguidist and in JavaScript for Storybook.
 On the screen, to the right you can see an example of how a button si documented for Styleguidist. From now on, I will
 be reffering to Styleguidist only. However, keep in mind that the idea also works for Storybook and for any other
 similar tool.
+
+-->
+
+
+## How to document?
+{: .documenting }
+
+<div class="double" markdown="1">
+
+#### brand-button.scss
+
+```
+// Brand button
+//
+// markup:
+// <button
+//   class="brand-button">
+//     Click here!
+// </button>
+```
+{: .code }
+
+
+#### BrandButton.md
+{: .shade }
+
+    # Brand button
+    ```
+    <button
+      className="brand-button">
+        Click here!
+    </button>
+    ```
+{: .code .shade }
+
+</div>
+
+<!--
 
 With our plain HTML/CSS library we usually also have similar documentation for components but maybe in different
 formats. At Elisa, we had these snippets as comments in CSS code and there was a custom tool to parse those comments.
