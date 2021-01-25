@@ -49,46 +49,13 @@ style: |
     }
 ---
 
-# <span class="guide">A practical guide</span> <span class="building">to&nbsp;building your</span> <span class="ds-infrastructure">design&nbsp;system&nbsp;infrastructure</span> {#Cover}
+# <span class="guide">Design Tokens</span> <span class="building">and</span> <span class="ds-infrastructure">Component Driven<br/>Development</span> {#Cover}
 
-<marquee class="conveyor" direction="right">
-<div markdown="1">
 
-**line**
-![](pictures/icons/mass-production/001-machinery.svg){: .svg .image .image--1 }
-**line**
-![](pictures/icons/mass-production/009-mass-production.svg){: .svg .image .image--2 }
-**line**
-![](pictures/icons/mass-production/005-mechanical-arm.svg){: .svg .image .image--3 }
-**line**
-![](pictures/icons/mass-production/037-industry-1.svg){: .svg .image .image--4 }
-**line**
-![](pictures/icons/mass-production/008-industrial.svg){: .svg .image .image--5 }
-**line**
-![](pictures/icons/mass-production/032-technology-1.svg){: .svg .image .image--6 }
-**line**
-![](pictures/icons/mass-production/043-factory-3.svg){: .svg .image .image--7 }
-**line**
-![](pictures/icons/mass-production/027-production.svg){: .svg .image .image--8 }
-**line**
-![](pictures/icons/mass-production/041-mass-production-4.svg){: .svg .image .image--9 }
-**line**
-
-</div>
-</marquee>
-
-<b>Varya Stepanova</b>, Design Systems Expert / [varya.me](http://varya.me)
+<b>Varya Stepanova</b>, Design Systems Architect / [varya.me](http://varya.me)
 {: .author }
-@ [Patterns Day](https://patternsday.com/), June 28<sup>th</sup>, 2019. Brighton, England
+@ [Brudge the Gap, design systems breakfast](https://www.eventbrite.com/e/bridge-the-gap-casual-breakfast-on-design-systems-tickets-136072952865), January 28<sup>th</sup>, 2021.
 {: .event }
-
-<script>
-
-var conveyor = document.getElementsByTagName('marquee')[0];
-var conveyor2 = conveyor.cloneNode(true);
-setTimeout(function() { conveyor.parentNode.appendChild(conveyor2) }, 14800);
-
-</script>
 
 <style>
 
@@ -106,7 +73,7 @@ setTimeout(function() { conveyor.parentNode.appendChild(conveyor2) }, 14800);
 
 #Cover h2 {
   font-size: 55px;
-  margin-top: 0.25em;
+  margin-top: 100px;
   line-height: 1em;
   text-transform: capitalize;
 }
@@ -120,7 +87,7 @@ setTimeout(function() { conveyor.parentNode.appendChild(conveyor2) }, 14800);
   font-size: 40px;
   font-family: "Graphik Light";
   display: block;
-  text-transform: uppercase;
+  text-transform: lowercase;
   margin-top: 0.25em;
 }
 
@@ -128,76 +95,9 @@ setTimeout(function() { conveyor.parentNode.appendChild(conveyor2) }, 14800);
   color: #ca4e1f;
 }
 
-#Cover .conveyor {
-  position: absolute;
-  left: 0;
-  top: 300px;
-  white-space: nowrap;
-  height: 225px;
-}
-
-#Cover .conveyor strong {
-  font: 0/0 a;
-  height:  3px;
-  width: 20px;
-  background-color: black;
-  margin-left: -6px;
-  line-height: 7px;
-  color: transparent;
-  display: inline-block;
-}
-
-#Cover .image {
-  width: 100px;
-}
-
-#Cover .image--1 {
-  margin-left: -6px;
-}
-
-#Cover .image--2 {
-  margin-left: -9px;
-  margin-bottom: -87px;
-}
-
-#Cover .image--3 {
-  margin-left: -6px;
-}
-
-#Cover .image--4 {
-  margin-left: -6px;
-  margin-bottom: -35px
-}
-
-#Cover .image--5 {
-  margin-left: -6px;
-  margin-bottom: -5px;
-}
-
-#Cover .image--6 {
-  margin-left: -9px;
-  margin-bottom: -87px;
-}
-
-#Cover .image--7 {
-  margin-left: -9px;
-  margin-right: -6px;
-}
-
-#Cover .image--8 {
-  margin-left: -13px;
-  margin-bottom: -97px;
-}
-
-#Cover .image--9 {
-  margin-left: -6px;
-  margin-bottom: -14px;
-  margin-right: -2px;
-}
-
 #Cover .author {
-  margin-top: 275px;
-  text-align: right;
+   text-align: right;
+   margin-top: 145px;
 }
 
 #Cover .event {
@@ -223,8 +123,8 @@ our design system to run.
 ![](pictures/me.jpg){: .photo }
 
 ### Varya Stepanova
-<b>Expert in Design Systems</b><br/>
-<small>Frontend enginner, service designer</small>
+<b>Design Systems Architect</b><br/>
+<small>independent consultant</small>
 
 #### Contacts
 * [@varya_en](https://twitter.com/varya_en){: .twitter }
@@ -232,7 +132,7 @@ our design system to run.
 * [mail@varya.me](mailto:mail@varya.me)
 {: .contacts }
 
-#### Areas of expertise
+#### Focus
 Design systems: production and governance,<br/>pattern libraries, style guides, UI/UX, front end.
 
 <style>
@@ -1903,9 +1803,9 @@ presented and shape your design system up to the needs of your company and proje
 
 ![](pictures/me.jpg){: .photo }
 
-### A Practical Guide TO BUILDING YOUR Design System Infrastructure
+### Design Tokens and Component&nbsp;Driven&nbsp;Development
 
-### [Slides: varya.me/patterns-day-2019](http://varya.me/patterns-day-2019/)
+### [Slides: varya.me/ds-breakfast-01-2021](http://varya.me/ds-breakfast-01-2021/)
 {: .slides }
 
 #### by Varya Stepanova
