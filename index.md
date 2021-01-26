@@ -200,7 +200,7 @@ At the moment, I am self-employed expert in design systems.
 ## Design Tokens
 {: .design-tokens .slide--shout .slide--highlighted }
 
-![](pictures/icons/web-design/045-diamond.svg){: .svg .image }
+![](pictures/icons/web-design/012-pixel.svg){: .svg .image }
 
 <style>
 .design-tokens .image {
@@ -233,7 +233,7 @@ At the moment, I am self-employed expert in design systems.
 ## Case study
 {: .case-study .slide--shout .slide--primary }
 
-![](pictures/icons/web-design/001-coding.svg){: .svg .image }
+![](pictures/icons/web-design/035-testing.svg){: .svg .image }
 
 <style>
 .case-study .image {
@@ -323,7 +323,7 @@ $dt-lines: #404041;
 ## The problem
 {: .problem .slide--shout .slide--primary-light }
 
-![](pictures/icons/design-thinking/web-design.svg){: .svg .image }
+![](pictures/icons/design-thinking/sketchbook.svg){: .svg .image }
 
 <style>
 
@@ -348,7 +348,7 @@ $dt-lines: #404041;
 ##  Solution
 {: .solution .slide--shout .slide--highlighted }
 
-![](pictures/icons/web-design/045-diamond.svg){: .svg .image }
+![](pictures/icons/web-design/013-layers.svg){: .svg .image }
 
 <style>
 .solution .image {
@@ -467,7 +467,7 @@ $dt-progressbar__text: $ds-color__neutral—700;
 ## Naming
 {: .naming .slide--shout .slide--primary-light }
 
-![](pictures/icons/design-thinking/web-design.svg){: .svg .image }
+![](pictures/icons/web-design/038-creativity.svg){: .svg .image }
 
 <style>
 
@@ -485,7 +485,7 @@ $dt-progressbar__text: $ds-color__neutral—700;
 ## In general
 {: .in-general .slide--shout .slide--primary }
 
-![](pictures/icons/web-design/001-coding.svg){: .svg .image }
+![](pictures/icons/web-design/042-solution.svg){: .svg .image }
 
 <style>
 .in-general .image {
