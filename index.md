@@ -196,336 +196,304 @@ At the moment, I am self-employed expert in design systems.
 
 -->
 
-## Design system at <b>Elisa</b>
-{: .elisa }
 
-![](pictures/elisa-logo.svg){: .svg .ea-logo title="Elisa" }
-
-* Library of CSS components
-* Libraries of React components
-* UI kit in Sketch
-* Shared tools and practices
-* Great design community
-* World-class front-end teams
-
-<style>
-
-.elisa .ea-logo {
-  position: fixed;
-  top: 45px;
-  left: 550px;
-}
-
-.elisa h2 {
-   display: inline-block;
-}
-
-.elisa h2 b {
-  display: none;
-}
-
-.ea-logo {
-  width: 200px;
-  height: 80px;
-  margin: 0 15px -15px;
-}
-
-</style>
-
-<!--
-
-The examples and ideas I will be giving are based on experience of working with design system at Elisa.
-
-Elisa is a large telecommunication company and content provider. It operates in Finland and Estonia and has
-dozens of digital products which are offered under the same brand.
-
-Elisa Design System is a huge product which includes several UI libraries. Some libraries are in React but there is also
-a plain HTML/CSS library which still needs a lot of automations and technological support.
-
-Besides, there is a large UI kit in Sketch.
-
-Apart from technical perspecitive,
-design system at Elisa means communication practises, visual guidelines, shared processes and tools.
-
-So, during the last year, I had a lot of opportunities to apply different technologies for supporting this ecosystems,
-making processes smooth and more transparent.
-
--->
-
-
-## What is design systems?
-{: .what-is-ds .slide--shout .slide--highlighted }
+## Design Tokens
+{: .design-tokens .slide--shout .slide--highlighted }
 
 ![](pictures/icons/web-design/045-diamond.svg){: .svg .image }
 
 <style>
-.what-is-ds .image {
+.design-tokens .image {
   width: 250px;
 }
 </style>
 
 <!--
 
-Now, let's define once again what design systems are.
-
-Often when speaking about desgin systems, people mean UI libraries. But is it really limited to that?
 
 -->
 
 
-## Design Systems
+## Design Tokens
 {: .react-world .slide--center }
 
-- …shared practices
-- …tools
-- …processes
-- …community
-{: .list }
+- reduce duplicated work
+- keep shared context within one team
+- help cross-company collaboration
+- accessible on-brand web and mobile apps
+- ensure smooth UX
+- empower us to create better products
 
-See more in the relevant article: [What is a design system? And why it is more than just a library or a style
-guide.](https://varya.me/design-systems/what-is-a-design-system/)
-{: .relevant-link }
-
-<style>
-
-.react-world .svg {
-  margin: 50px 100px;
-}
-
-.react-world .list {
-  position: relative;
-  margin-left: 50%;
-  margin-top: 4em;
-}
-
-.react-world .list li.current {
-  font-family: 'Graphik Medium';
-}
-
-.react-world .list li:after {
-  position: fixed;
-  top: 50%;
-  left: 25%;
-  width: 200px;
-  margin-top: -100px;
-  margin-left: -50px;
-  display: none;
-}
-
-.react-world .list li.current:after {
-  display: block;
-}
-
-.react-world .list li:nth-child(1):after {
-  content: url('pictures/icons/web-design/042-solution.svg');
-}
-.react-world .list li:nth-child(2):after {
-  content: url('pictures/icons/web-design/029-settings.svg');
-}
-.react-world .list li:nth-child(3):after {
-  content: url('pictures/icons/user-experience/040-algorithm.svg');
-}
-.react-world .list li:nth-child(4):after {
-  content: url('pictures/icons/web-design/039-sharing.svg');
-}
-</style>
 
 <!--
 
-As it is yet evolving concept, our understanding of it is changing, so there is no definition. But speaking from
-experience, I would say that a design system is
-
-  - Shared practises, based on which you design your product or bunch of products under the same brand. Components go
-  here, but this is not only about them. The practises can be more abstract or more design related such as visual
-  language or tone of voice. Or on the contrary, they can be deeply technical and reflect your approach to code.
-  - This brings us to tools which our company could have for all the developers and designers to share. As we are speaking
-  about design systems as a way of standartizing, they fit there.
-  - At some level, design systems would mean the processes which are followed in the company to achieve the outlined
-  goals.
-  - Finally, working with our fellow developers, designers and project owners as with a community also resonates with
-  design system goals.
-
-Even though the components were only mentioned in the beginning, we can apply technologies to all of these aspects of
-design systems.
-In this presentation I will share some ideas how we can use React and its ecosystem to help design systems on all the
-levels.
-
 -->
 
 
-## To react or not to react?
-{: .react-or-no .slide--shout .slide--primary }
+## Case study
+{: .case-study .slide--shout .slide--primary }
 
 ![](pictures/icons/web-design/001-coding.svg){: .svg .image }
 
 <style>
-.react-or-no .image {
+.case-study .image {
   width: 250px;
 }
 </style>
 
 <!--
 
-First, I would like to explain why it's about React. Because indeed the components can be implemented using any other
-framework.
-
-As I said, my experience also was with a plain CSS/HTMl library which seems to be not related to the topic of React. But
-let's have a closer look.
-
 -->
 
 
-## Living style guides
-{: .living-styleguides .slide--center }
+## The tokens
+{: .the-tokens }
 
-![](pictures/logo/styleguidist.png){: .styleguidist }
-![](pictures/logo/storybook.svg){: .storybook }
-<i class="whatever">💁</i>
-
-<b class="next">Only for React libraries or..?</b>
-
-<style>
-
-.living-styleguides .slide__content {
-  text-align: center;
-}
-
-.living-styleguides .styleguidist,
-.living-styleguides .storybook,
-.living-styleguides .whatever {
-  width: 230px;
-  margin: 25px;
-}
-
-.living-styleguides .styleguidist {
-  margin-bottom: -1.25em;
-}
-
-.living-styleguides .whatever {
-  display: inline-block;
-  font-size: 120px;
-  width: 150px;
-  font-style: normal;
-  line-height: 1em;
-}
-
-</style>
-
-<!--
-
-I think all of you are familiar with Styleguidist and Storybook. Or maybe some have experience with other similar
-solutions.
-
-It is good to use them as a development playground. The components there are isolated so that we can practise
-style-guide driven development.
-Style guides are themselves documentation websites which is exactly what we need for a design system.
-And these tools often have a lot of useful plugins which could be huge help to the development process.
-
-But this is all for the React projects. What if I have my components as plain HTML/CSS or implemented with some other
-component technology? Is it possible to still use these tools?
-
--->
-
-
-## How to document?
-{: .documenting }
-
-<div class="double" markdown="1">
-
-#### brand-button.scss
-{: .shade }
 
 ```
-// Brand button
-//
-// markup:
-// <button
-//   class="brand-button">
-//     Click here!
-// </button>
-```
-{: .code .shade }
-
-
-#### BrandButton.md
-
-    # Brand button
-    ```
-    <button
-      className="brand-button">
-        Click here!
-    </button>
-    ```
-{: .code }
-
-</div>
-
-<style>
-
-.documenting .code {
-  font-size: 0.8em;
-}
-
-.documenting .shade {
-  color: #999;
-}
-
-</style>
-
-<!--
-
-What we need to enjoy Styleguidist or Storybook? We should have our code snippets in a special format. It is in markdown
-for Styleguidist and in JavaScript for Storybook.
-
-On the screen, to the right you can see an example of how a button si documented for Styleguidist. From now on, I will
-be reffering to Styleguidist only. However, keep in mind that the idea also works for Storybook and for any other
-similar tool.
-
--->
-
-
-## How to document?
-{: .documenting }
-
-<div class="double" markdown="1">
-
-#### brand-button.scss
-
-```
-// Brand button
-//
-// markup:
-// <button
-//   class="brand-button">
-//     Click here!
-// </button>
+$dt-primary: #f74d7b;
+$dt-disabled:  #767677;
+$dt-inverse: #FFFFFF;
+$dt-lines: #404041;
 ```
 {: .code }
 
 
-#### BrandButton.md
-{: .shade }
+<!--
 
-    # Brand button
-    ```
-    <button
-      className="brand-button">
-        Click here!
-    </button>
-    ```
-{: .code .shade }
+-->
 
-</div>
+
+## The tokens and the checkbox
+{: .checkbox }
+
+![](pictures/tokens-checks@1.5x.png){: .image }
+
+### … very well!
+
+<style>
+.checkbox .image {
+  width: 100%;
+}
+</style>
 
 <!--
 
-With our plain HTML/CSS library we usually also have similar documentation for components but maybe in different
-formats. At Elisa, we had these snippets as comments in CSS code and there was a custom tool to parse those comments.
-You can see the example on the screen to the left.
 
-Basicaly, to enjoy the Styleguidist, we should stop writing left and start writing right. However, this might break a
-lot of things in our own set up and also be challenging for the people to change the way of documenting they are used
-to.
+-->
+
+
+## , and the radio button
+{: .radio-button }
+
+![](pictures/tokens-radios@1.5x.png){: .image }
+
+### … looks good!
+
+<style>
+.radio-button .image {
+  width: 100%;
+}
+</style>
+
+<!--
+
+
+-->
+
+
+## , and the progress bar
+{: .progress-bar }
+
+![](pictures/tokens-bar@1.5x.png){: .image }
+
+### … meh…
+
+<style>
+.progress-bar .image {
+  width: 100%;
+}
+</style>
+
+<!--
+
+
+-->
+
+## The problem
+{: .problem .slide--shout .slide--primary-light }
+
+![](pictures/icons/design-thinking/web-design.svg){: .svg .image }
+
+<style>
+
+.problem .image {
+  width: 250px;
+}
+</style>
+
+<!--
+
+
+-->
+
+## Contexts
+
+- global variables
+- encapsulated components
+
+
+
+
+##  Solution
+{: .solution .slide--shout .slide--highlighted }
+
+![](pictures/icons/web-design/045-diamond.svg){: .svg .image }
+
+<style>
+.solution .image {
+  width: 250px;
+}
+</style>
+
+<!--
+
+
+-->
+
+## Middle layer
+
+TODO: schema
+
+
+## Tokens and their semantics
+
+```
+$dt-color__neutral--900: #000000;
+$dt-color__neutral--700: #404041;
+$ds-color__neutral--400: #767677;
+$dt-color__neutral--100: #FFFFFF;
+$dt-color__neutral: $dt-color__neutral--900;
+
+$dt-color__primary: #f74d7b;
+
+$ds-color__transparent: transparent;
+```
+{: .code }
+
+
+
+## Variables for form elements
+
+```
+$dt-form__border: $dt-color__neutral--700;
+$dt-form__border--disabled: $ds-color__neutral--400;
+
+$dt-form__content--active: $dt-color__neutral--100;
+
+$dt-form__background: $dt-color__transparent;
+$dt-form__background--disabled: $ds-color__neutral--400;
+```
+{: .code }
+
+
+## Checkbox
+{: .checkbox2 }
+
+![](pictures/middle-checks@1.5x.png){: .image }
+
+### … super!
+
+<style>
+.checkbox2 .image {
+  width: 100%;
+}
+</style>
+
+<!--
+
+
+-->
+
+
+## Radio
+{: .radio2 }
+
+![](pictures/middle-radios@1.5x.png){: .image }
+
+### … fantastic!
+
+<style>
+.radio2 .image {
+  width: 100%;
+}
+</style>
+
+<!--
+
+
+-->
+
+
+## Progress-bar scoped
+{: .progress-bar-scope }
+
+```
+$dt-progressbar__background: $ds-color__neutral--400;
+$dt-progressbar__content: $dt-color__primary;
+$dt-progressbar__text: $ds-color__neutral—700;
+```
+{: .code }
+
+## Progress bar
+{: .progress-bar2 }
+
+![](pictures/middle-bar@1.5x.png){: .image }
+
+### … awesome!
+
+<style>
+.progress-bar2 .image {
+  width: 100%;
+}
+</style>
+
+<!--
+
+
+-->
+
+
+## Naming
+{: .naming .slide--shout .slide--primary-light }
+
+![](pictures/icons/design-thinking/web-design.svg){: .svg .image }
+
+<style>
+
+.naming .image {
+  width: 250px;
+}
+</style>
+
+<!--
+
+
+-->
+
+
+## In general
+{: .in-general .slide--shout .slide--primary }
+
+![](pictures/icons/web-design/001-coding.svg){: .svg .image }
+
+<style>
+.in-general .image {
+  width: 250px;
+}
+</style>
+
+<!--
 
 -->
 
