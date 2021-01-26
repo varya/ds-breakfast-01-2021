@@ -408,6 +408,7 @@ TODO: schema
 
 
 ## Tokens and their semantics
+{: .semantic-tokens }
 
 ```
 $dt-color__neutral--900: #000000;
@@ -421,6 +422,78 @@ $dt-color__primary: #f74d7b;
 $ds-color__transparent: transparent;
 ```
 {: .code }
+
+<div class="color-boxes">
+  <div class="item neutral-900"></div>
+  <div class="item neutral-700"></div>
+  <div class="item neutral-400"></div>
+  <div class="item neutral-100"></div>
+  <div class="item neutral"></div>
+  <div class="item blank"></div>
+  <div class="item primary"></div>
+  <div class="item blank"></div>
+  <div class="item transparent"></div>
+</div>
+
+<!--
+
+-->
+
+<style>
+.semantic-tokens .code {
+  font-size: 0.9em;
+}
+.semantic-tokens .slide__content {
+  position: relative;
+}
+.semantic-tokens .color-boxes {
+  font-size: 0.9em;
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin-left: -1.5em;
+  width: 1em;
+  height: 100%;
+}
+
+.semantic-tokens .color-boxes .item {
+  width: 1em;
+  height: 1em;
+  margin: 0.5em 0 1em 0;
+  border: #666 1px solid;
+}
+.semantic-tokens .color-boxes .blank {
+  visibility: hidden;
+}
+.semantic-tokens .color-boxes .neutral-900 {
+  background-color: #000000;
+}
+.semantic-tokens .color-boxes .neutral-700 {
+  background-color: #404041;
+}
+.semantic-tokens .color-boxes .neutral-400 {
+  background-color: #767677;
+}
+.semantic-tokens .color-boxes .neutral--100 {
+  background-color: #FFFFFF;
+}
+.semantic-tokens .color-boxes .neutral {
+  background-color: #000000;
+}
+.semantic-tokens .color-boxes .primary {
+  background-color: #f74d7b;
+}
+.semantic-tokens .color-boxes .transparent {
+  background-image:
+      linear-gradient(45deg, #ccc 25%, transparent 25%), 
+      linear-gradient(135deg, #ccc 25%, transparent 25%),
+      linear-gradient(45deg, transparent 75%, #ccc 75%),
+      linear-gradient(135deg, transparent 75%, #ccc 75%);
+    background-size: 1em 1em; /* Must be a square */
+    background-position:0 0, 0.5em 0, 0.5em -0.5em, 0px 0.5em; /* Must be half of one side of the square */
+}
+</style>
 
 
 
