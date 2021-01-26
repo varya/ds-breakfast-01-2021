@@ -258,10 +258,51 @@ $dt-lines: #404041;
 ```
 {: .code }
 
+<div class="color-boxes">
+  <div class="item primary"></div>
+  <div class="item disabled"></div>
+  <div class="item inverse"></div>
+  <div class="item lines"></div>
+</div>
 
 <!--
 
 -->
+
+<style>
+.the-tokens .slide__content {
+  position: relative;
+}
+.the-tokens .color-boxes {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin-left: -1.5em;
+  width: 1em;
+  height: 100%;
+}
+
+.the-tokens .color-boxes .item {
+  width: 1em;
+  height: 1em;
+  margin: 0.5em 0 1em 0;
+  border: #666 1px solid;
+}
+.the-tokens .color-boxes .primary {
+  background-color: #f74d7b;
+}
+.the-tokens .color-boxes .disabled {
+  background-color: #767677;
+}
+.the-tokens .color-boxes .inverse {
+  background-color: #FFFFFF;
+}
+.the-tokens .color-boxes .lines {
+  background-color: #404041;
+}
+</style>
 
 
 ## The tokens and the checkbox
