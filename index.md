@@ -403,8 +403,20 @@ $dt-lines: #404041;
 -->
 
 ## Middle layer
+{: .middle-layer }
 
-TODO: schema
+![](pictures/middle-layer.png){: .image }
+
+
+<style>
+.middle-layer .slide__content {
+  text-align: center;
+}
+
+.middle-layer .image {
+  margin-top: 1.5em;
+}
+</style>
 
 
 ## Tokens and their semantics
